@@ -1,0 +1,1440 @@
+
+
+
+
+
+
+BRIEFING DE PROYECTO SEO
+Electricista en Barcelona
+Estudio de palabras clave, arquitectura web y estructura de landings · Proyecto Rank & Rent
+
+
+
+
+4.100
+búsquedas/mes mapeadas
+
+
+26
+landings planificadas
+
+
+3
+fases de ejecución
+
+
+Preparado por Agencia IA Solutions  ·  Septiembre 2026  ·  Versión 2.0
+
+
+
+
+
+Alcance de este documento
+Define la arquitectura de la web, el mapeo de palabras clave por landing, la estructura de encabezados de cada página y el sistema de captación y reparto de leads (formulario, llamada y WhatsApp). No incluye redacción de textos finales ni diseño gráfico, que se abordan en la siguiente fase.
+
+1. Objetivo y alcance del proyecto
+El objetivo es construir una web de captación de leads para servicios de electricista en Barcelona y su área metropolitana, posicionada orgánicamente en las búsquedas de intención comercial y local, y explotada bajo modelo Rank & Rent: la agencia es propietaria del activo y reparte el flujo de leads entre una red de más de 10 instaladores de la zona.
+Parámetros validados con el cliente
+
+
+Parámetro
+
+Definición
+
+Cobertura geográfica
+
+Barcelona ciudad + área metropolitana (Hospitalet, Badalona, Cornellà, Castelldefels, Sant Cugat, Sabadell, Terrassa)
+
+Tipo de cliente
+
+Particulares, comunidades de vecinos, comercios y oficinas, e industrial
+
+Servicios en alcance
+
+Urgencias 24 h, reformas e instalación completa, cambio de enchufes e interruptores, cambio y configuración de cuadro eléctrico (caja de plomos), mantenimiento y domótica
+
+Red de instaladores
+
+Más de 10 instaladores, lo que permite comprometer tiempos de respuesta y cobertura simultánea en varios municipios
+
+Contacto único
+
+657 144 186 para teléfono y WhatsApp, con centralita de reparto y trazabilidad del lead
+
+Arquitectura
+
+Plana: todas las páginas cuelgan directamente de la raíz. Sin directorios /servicios/ ni /zonas/
+
+Tarifas
+
+No se publican precios ni tarifas en ninguna página. La conversión se orienta a presupuesto personalizado
+
+Google Business Profile
+
+Fuera de alcance en esta fase. El proyecto se apoya exclusivamente en orgánico
+
+Idioma
+
+Castellano. El catalán queda descartado por volumen residual (ver sección 2)
+
+Objetivos medibles a 12 meses
+Top 3 en «electricista barcelona» y en todo el clúster de urgencias, ambos concentrados en la home.
+Mínimo 1.200 sesiones orgánicas/mes procedentes de keywords con intención comercial.
+60-90 leads cualificados al mes entre formulario, llamada y WhatsApp.
+Tiempo medio de respuesta al lead por debajo de 15 minutos en horario laborable.
+
+
+
+
+
+Tres decisiones con impacto directo en el resultado
+1) Boletín eléctrico / CIE: es la mayor bolsa de demanda del sector (≈ 1.960 búsquedas/mes, KD 0-1). Solo puede trabajarse si algún instalador de la red está inscrito como REIC en el registro de la Generalitat. 2) Sin ficha de Google Business Profile se renuncia al local pack, que absorbe buena parte de los clics en las búsquedas locales: el proyecto competirá únicamente en los resultados orgánicos clásicos. Con más de 10 instaladores, la alternativa natural sería una ficha por instalador con su dirección real. 3) Puntos de recarga de vehículo eléctrico (≈ 850 búsquedas/mes): fuera del alcance actual, recuperable en fase 3.
+
+2. Estudio de palabras clave
+Datos extraídos de Ahrefs para España. El volumen es la media mensual de los últimos 12 meses, KD es la dificultad de posicionamiento sobre 100 y el CPC refleja el valor comercial real de cada búsqueda en el mercado de pago.
+
+2.1 Clúster general — búsqueda local genérica
+
+
+Palabra clave
+
+Volumen
+
+KD
+
+CPC ($)
+
+electricista barcelona
+
+1.000
+
+30
+
+4,00
+
+electricistas barcelona
+
+150
+
+12
+
+0,90
+
+instaladores electricistas barcelona
+
+150
+
+—
+
+—
+
+electricistas en barcelona
+
+100
+
+12
+
+3,00
+
+barcelona electricista
+
+100
+
+—
+
+—
+
+electricistas autorizados barcelona
+
+90
+
+—
+
+—
+
+electricista en barcelona
+
+80
+
+11
+
+2,50
+
+electricista autorizado barcelona
+
+80
+
+10
+
+—
+
+electricista cerca de mi barcelona
+
+30
+
+—
+
+—
+
+instalaciones electricas barcelona
+
+30
+
+61
+
+1,00
+
+Total del clúster ≈ 1.810 búsquedas/mes. Todas comparten el mismo parent topic («electricista barcelona»).
+
+2.2 Clúster de urgencias
+
+
+Palabra clave
+
+Volumen
+
+KD
+
+CPC ($)
+
+electricista barcelona 24 horas
+
+200
+
+0
+
+7,00
+
+electricista urgente barcelona
+
+150
+
+3
+
+4,50
+
+averia electrica barcelona
+
+90
+
+3
+
+1,10
+
+electricista 24 horas barcelona
+
+60
+
+23
+
+3,00
+
+electricista urgencias barcelona
+
+50
+
+41
+
+3,00
+
+electricistas urgentes barcelona
+
+50
+
+—
+
+3,50
+
+electricista urgencia barcelona
+
+40
+
+0
+
+—
+
+electricistas 24 horas barcelona
+
+30
+
+0
+
+1,80
+
+electricista 24h barcelona
+
+30
+
+—
+
+—
+
+
+
+
+
+El dato que justifica agrupar urgencias en la home
+Ahrefs asigna a «electricista barcelona 24 horas» (200/mes, CPC 7,00 $, el más alto del estudio) el mismo parent topic que a la búsqueda genérica: «electricista barcelona». Es decir, la página que hoy lidera una consulta lidera también la otra. Fusionar ambos clústeres en la home concentra ≈ 2.510 búsquedas/mes en una sola URL y evita repartir autoridad entre dos páginas que compiten por el mismo resultado.
+
+2.3 Clúster de servicios
+Hallazgo clave del estudio: los servicios concretos casi no se buscan acompañados de «Barcelona» (punto de recarga + Barcelona = 0, certificado instalación eléctrica + Barcelona = 0, portero automático + Barcelona = 0). El volumen está en el término genérico y es Google quien localiza el resultado según la ubicación del usuario. Por tanto, las landings de servicio se optimizan al término genérico y usan Barcelona como refuerzo semántico y de conversión, nunca forzándolo en el title si no hay demanda.
+
+
+
+Servicio
+
+Palabra clave
+
+Volumen
+
+KD
+
+Boletín / CIE
+
+boletin electrico
+
+1.300
+
+0
+
+
+
+certificado de instalacion electrica
+
+250
+
+0
+
+
+
+precio boletin electrico
+
+200
+
+1
+
+
+
+electricista boletin electrico
+
+150
+
+0
+
+
+
+boletin electrico barcelona
+
+60
+
+0
+
+Cuadro eléctrico
+
+cuadro electrico vivienda
+
+3.000
+
+0
+
+
+
+normativa cuadro electrico vivienda
+
+300
+
+0
+
+
+
+cambiar cuadro electrico
+
+90
+
+0
+
+Instalación / reforma
+
+instalacion electrica barcelona
+
+150
+
+—
+
+
+
+reforma instalacion electrica (parent)
+
+100
+
+0
+
+
+
+revision instalacion electrica
+
+100
+
+0
+
+
+
+legalizacion instalacion electrica
+
+30
+
+0
+
+Enchufes
+
+cambiar enchufes
+
+40
+
+0
+
+
+
+como cambiar un enchufe (parent)
+
+300
+
+0
+
+Domótica
+
+domotica barcelona
+
+50
+
+54
+
+Industrial
+
+electricistas industriales barcelona
+
+100
+
+—
+
+Videoportero
+
+videoportero barcelona
+
+150
+
+0
+
+
+
+
+
+Cuidado con «cuadro eléctrico»
+Los 3.000-5.100 de la cabeza son mayoritariamente intención informacional y de producto (esquemas unifilares, tapas decorativas, comprar cuadro premontado). La keyword comercial real es «cambiar cuadro eléctrico» (90) apoyada en «normativa cuadro eléctrico vivienda» (300). Se trabaja como landing de servicio sostenida por contenido informacional del blog, no como página comercial pura.
+
+2.4 Clúster geográfico
+
+
+Palabra clave
+
+Volumen
+
+KD
+
+CPC ($)
+
+electricista badalona
+
+150
+
+0
+
+3,50
+
+electricista terrassa
+
+150
+
+0
+
+0,90
+
+electricista sabadell
+
+100
+
+21
+
+3,00
+
+electricista hospitalet
+
+70
+
+—
+
+—
+
+electricista granollers
+
+70
+
+0
+
+0,60
+
+electricista mataro
+
+60
+
+0
+
+1,10
+
+electricista sant cugat
+
+60
+
+39
+
+1,00
+
+electricista castelldefels
+
+60
+
+0
+
+2,00
+
+electricista cornella
+
+40
+
+0
+
+—
+
+
+
+
+
+Los barrios de Barcelona no tienen demanda
+Eixample, Gràcia, Sants, Sarrià y Poblenou registran volumen 0 combinados con «electricista». No se crean landings de barrio: se cubren como bloque de zonas dentro de la home. Sí se crean landings de municipio, que suman ≈ 590 búsquedas/mes adicionales con KD prácticamente nulo y que la red de más de 10 instaladores permite atender en paralelo.
+
+2.5 Keywords descartadas
+Intención de empleo: «trabajo electricista barcelona» (50), «cuanto gana un electricista en barcelona» (80), «cuanto cobra un electricista en barcelona» (30).
+Intención formativa: «curso electricista barcelona» (70), «curso instalador electricista barcelona» (30).
+Intención de precio: «electricista barcelona precio» (60), «precio hora electricista barcelona» (30), «electricista barcelona barato» (30). Se renuncia a ≈ 150 búsquedas/mes por la decisión de no publicar tarifas.
+Intención de producto: «tapa cuadro electrico» (1.100), «cubre cuadro electrico» (350), «ideas para tapar cuadro electrico» (350) — e-commerce y decoración.
+Catalán: «electricistes barcelona» (10), «butlletí elèctric» (10). Volumen residual; no justifica versión bilingüe ni hreflang.
+
+3. Arquitectura web y mapa de landings
+Arquitectura completamente plana: todas las páginas cuelgan de la raíz, sin directorios intermedios. No existe página hub de servicios ni directorio de zonas; la home asume esa función de distribución y concentra además todo el clúster de «electricista», incluidas las búsquedas de 24 horas y urgencias.
+
+
+
+
+
+Las tres reglas de la arquitectura
+1) La home agrupa «electricista barcelona», «24 horas», «urgente» y «avería»: ≈ 2.510 búsquedas/mes en una sola URL. 2) Los servicios no tienen hub: cada landing cuelga directamente de la raíz y se enlaza desde la home. 3) Las zonas tampoco tienen directorio: /electricista-badalona/, no /zonas/electricista-badalona/.
+
+3.1 Fase 1 — núcleo comercial
+
+
+URL
+
+Keyword objetivo
+
+Vol./mes
+
+Prioridad
+
+/
+
+electricista barcelona + 24 horas
+
+2.510
+
+ALTA
+
+/instalaciones-electricas-barcelona/
+
+instalacion electrica barcelona
+
+180
+
+ALTA
+
+/cambio-de-cuadro-electrico/
+
+cambiar cuadro electrico
+
+390
+
+ALTA
+
+/reforma-instalacion-electrica/
+
+reforma instalacion electrica
+
+120
+
+MEDIA
+
+/enchufes-e-interruptores/
+
+cambiar enchufes
+
+40
+
+BAJA
+
+/mantenimiento-electrico/
+
+mantenimiento electrico barcelona
+
+10
+
+MEDIA
+
+/domotica-barcelona/
+
+domotica barcelona
+
+50
+
+BAJA
+
+/boletin-electrico-barcelona/
+
+boletin electrico (condicional)
+
+1.960
+
+ALTA
+
+/contacto/
+
+— (navegacional)
+
+—
+
+MEDIA
+
+3.2 Fase 2 — segmentos de cliente y zonas
+
+
+URL
+
+Keyword objetivo
+
+Vol./mes
+
+Prioridad
+
+/electricista-comunidades-de-vecinos/
+
+electricista para comunidades
+
+—
+
+MEDIA
+
+/electricista-locales-y-oficinas/
+
+electricista locales comerciales
+
+—
+
+MEDIA
+
+/electricista-industrial-barcelona/
+
+electricistas industriales barcelona
+
+100
+
+MEDIA
+
+/electricista-badalona/
+
+electricista badalona
+
+150
+
+ALTA
+
+/electricista-terrassa/
+
+electricista terrassa
+
+150
+
+ALTA
+
+/electricista-sabadell/
+
+electricista sabadell
+
+100
+
+MEDIA
+
+/electricista-hospitalet/
+
+electricista hospitalet
+
+70
+
+MEDIA
+
+/electricista-sant-cugat/
+
+electricista sant cugat
+
+60
+
+BAJA
+
+/electricista-castelldefels/
+
+electricista castelldefels
+
+60
+
+BAJA
+
+/electricista-cornella/
+
+electricista cornella
+
+40
+
+BAJA
+
+3.3 Fase 3 — contenido de soporte y expansión
+
+
+URL
+
+Keyword objetivo
+
+Vol./mes
+
+Prioridad
+
+/blog/por-que-salta-el-diferencial/
+
+porque salta el diferencial
+
+1.500
+
+ALTA
+
+/blog/normativa-cuadro-electrico-vivienda/
+
+normativa cuadro electrico vivienda
+
+300
+
+MEDIA
+
+/blog/revision-instalacion-electrica/
+
+revision instalacion electrica
+
+100
+
+BAJA
+
+/punto-de-recarga-coche-electrico/
+
+instalar punto de recarga (opcional)
+
+850
+
+MEDIA
+
+/videoporteros-barcelona/
+
+videoportero barcelona (opcional)
+
+150
+
+BAJA
+
+/electricista-mataro/
+
+electricista mataro
+
+60
+
+BAJA
+
+/electricista-granollers/
+
+electricista granollers
+
+70
+
+BAJA
+
+3.4 Reglas de enlazado interno
+La home es el único hub: enlaza a los 6 servicios, al boletín y a las 7 zonas con anchor de keyword exacta.
+Cada landing de servicio enlaza de vuelta a la home con el anchor «electricista en Barcelona» y lateralmente a 2-3 servicios relacionados, nunca a todos.
+Las landings de zona enlazan a los servicios y a la home, no entre ellas: evitan crear una rueda de enlaces de baja calidad.
+Al no existir directorios, el breadcrumb es de dos niveles: Inicio > Página.
+Los artículos del blog enlazan siempre a la landing comercial correspondiente en el primer tercio del texto.
+Nada de enlaces sitewide con anchor exacto fuera del menú: se limita a menú, footer y cuerpo de texto.
+
+4. Estructura de encabezados por landing
+Un único H1 por página conteniendo la keyword objetivo de forma natural. Los H2 cubren las intenciones secundarias y las preguntas del SERP; los H3 desarrollan casuística y preguntas frecuentes para capturar long tail y posiciones cero. Ninguna página incluye bloque de tarifas.
+
+Home — electricista en Barcelona + urgencias 24 h
+URL: /
+Keyword principal: electricista barcelona (1.000) · electricista barcelona 24 horas (200)   ·   Apoyo: electricista urgente barcelona, averia electrica barcelona, electricistas autorizados barcelona, instaladores electricistas barcelona, electricista cerca de mi
+H1 Electricista en Barcelona: urgencias 24 horas e instalaciones
+H2 Electricista urgente 24 horas en Barcelona
+H3 Avería eléctrica: un técnico en tu domicilio en menos de 60 minutos
+H3 Se ha ido la luz en toda la vivienda
+H3 Salta el diferencial una y otra vez
+H3 Olor a quemado, chispas o cortocircuito
+H3 Enchufes o circuitos sin corriente
+H3 Avería en el ascensor, el garaje o las zonas comunes
+H2 Qué hacer mientras llega el electricista
+H2 Servicios de electricista en Barcelona
+H3 Instalaciones eléctricas y reformas completas
+H3 Cambio y configuración del cuadro eléctrico
+H3 Reforma de la instalación eléctrica
+H3 Enchufes, interruptores e iluminación
+H3 Mantenimiento eléctrico para empresas y comunidades
+H3 Domótica y automatización del hogar
+H2 Más de 10 instaladores cubriendo Barcelona y el área metropolitana
+H2 Por qué elegir a nuestros electricistas
+H3 Instaladores autorizados y trabajos certificados
+H3 Presupuesto cerrado antes de empezar, sin sorpresas
+H3 Garantía por escrito en materiales y mano de obra
+H2 Cómo trabajamos: del primer contacto a la factura
+H2 Zonas donde trabajamos
+H2 Opiniones de clientes en Barcelona
+H2 Preguntas frecuentes sobre electricistas en Barcelona
+H3 ¿Cuánto tarda en llegar un electricista a mi domicilio?
+H3 ¿Atendéis de madrugada, fines de semana y festivos?
+H3 ¿Qué diferencia hay entre un electricista y un instalador autorizado?
+H3 ¿Cobráis el desplazamiento si finalmente no se repara?
+H3 ¿Cuándo es responsabilidad de la compañía eléctrica y no mía?
+H2 Pide presupuesto sin compromiso
+
+Página larga (1.800-2.200 palabras): asume el clúster general y el de urgencias a la vez. El bloque de urgencias va inmediatamente después del hero, por encima del pliegue, con el teléfono 657 144 186 como CTA de máximo contraste. El bloque de servicios funciona como hub de distribución al no existir página /servicios/.
+
+Servicio — instalaciones eléctricas
+URL: /instalaciones-electricas-barcelona/
+Keyword principal: instalacion electrica barcelona (150)   ·   Apoyo: instalaciones electricas barcelona, instalacion electrica vivienda, legalizacion instalacion electrica
+H1 Instalaciones eléctricas en Barcelona para viviendas y locales
+H2 Instalación eléctrica completa en vivienda
+H2 Instalación eléctrica en locales comerciales y oficinas
+H2 Instalación eléctrica en obra nueva y rehabilitación
+H2 Qué incluye una instalación eléctrica según el REBT
+H3 Cuadro general de mando y protección
+H3 Circuitos independientes y puesta a tierra
+H3 Certificado de instalación eléctrica y legalización
+H2 Plazos de ejecución y organización de la obra
+H2 Qué incluye siempre nuestro presupuesto
+H2 Preguntas frecuentes
+H3 ¿Hace falta boletín eléctrico para una instalación nueva?
+H3 ¿Puedo vivir en casa mientras hacéis la instalación?
+
+Servicio — cambio de cuadro eléctrico (caja de plomos)
+URL: /cambio-de-cuadro-electrico/
+Keyword principal: cambiar cuadro electrico (90)   ·   Apoyo: cuadro electrico vivienda, normativa cuadro electrico vivienda, caja de plomos
+H1 Cambio de cuadro eléctrico en Barcelona
+H2 Señales de que tu cuadro eléctrico se ha quedado obsoleto
+H3 Todavía tienes fusibles o «plomos» en lugar de automáticos
+H3 Salta el diferencial al conectar electrodomésticos
+H3 No hay circuitos independientes ni puesta a tierra
+H2 Qué debe llevar un cuadro eléctrico según la normativa vigente
+H2 Cómo es el proceso de cambio del cuadro
+H2 Cambio de cuadro en pisos antiguos del centro de Barcelona
+H2 Preguntas frecuentes
+H3 ¿Cuánto tiempo estaré sin luz durante el cambio?
+H3 ¿El cambio de cuadro obliga a renovar toda la instalación?
+H3 ¿Necesito un nuevo boletín eléctrico después?
+
+Landing sostenida por los artículos «normativa cuadro eléctrico vivienda» (300/mes) y «por qué salta el diferencial» (1.500/mes), que enlazan aquí desde el primer tercio del texto.
+
+Servicio — reforma de instalación eléctrica
+URL: /reforma-instalacion-electrica/
+Keyword principal: reforma instalacion electrica (100 parent)   ·   Apoyo: cambiar instalacion electrica casa, renovar instalacion electrica piso, revision instalacion electrica
+H1 Reforma de la instalación eléctrica en Barcelona
+H2 Cuándo hay que renovar la instalación eléctrica de una vivienda
+H2 Reforma parcial frente a renovación completa
+H2 Cómo reformamos sin destrozar la casa
+H2 Revisión previa gratuita del estado de tu instalación
+H2 Preguntas frecuentes
+H3 ¿Cuántos días dura la reforma de un piso de 80 m²?
+H3 ¿Hay que picar todas las paredes?
+
+Servicio — enchufes e interruptores
+URL: /enchufes-e-interruptores/
+Keyword principal: cambiar enchufes (40)   ·   Apoyo: poner enchufes casa, cambiar interruptores, como cambiar un enchufe
+H1 Cambio e instalación de enchufes e interruptores en Barcelona
+H2 Instalar enchufes nuevos donde los necesitas
+H2 Sustituir enchufes e interruptores antiguos o dañados
+H2 Enchufes para electrodomésticos de alto consumo
+H2 Preguntas frecuentes
+H3 ¿Se puede añadir un enchufe sin obra?
+H3 ¿Por qué un enchufe se calienta o se pone negro?
+
+Servicio de bajo volumen pero muy alta conversión y de entrada: capta clientes que después contratan trabajos mayores. Debe cerrar con enlace a reforma e instalación.
+
+Servicio — mantenimiento eléctrico
+URL: /mantenimiento-electrico/
+Keyword principal: mantenimiento electrico barcelona (10)   ·   Apoyo: mantenimiento instalaciones electricas, contrato mantenimiento electrico comunidad
+H1 Mantenimiento eléctrico en Barcelona para empresas y comunidades
+H2 Qué incluye nuestro contrato de mantenimiento
+H2 Mantenimiento preventivo frente a correctivo
+H2 Mantenimiento para comunidades de vecinos
+H2 Mantenimiento para comercios, oficinas e industria
+H2 Revisiones periódicas obligatorias según el REBT
+H2 Cobertura de la red: más de 10 instaladores disponibles
+
+Volumen orgánico casi nulo, pero es el servicio de mayor valor recurrente (LTV). Se posiciona por long tail B2B y se alimenta desde las landings de comunidades y de locales.
+
+Servicio — domótica
+URL: /domotica-barcelona/
+Keyword principal: domotica barcelona (50, KD 54)   ·   Apoyo: instalar domotica casa, automatizacion del hogar, persianas automaticas
+H1 Instalación de domótica en Barcelona
+H2 Qué puedes automatizar en tu vivienda
+H3 Iluminación y escenas inteligentes
+H3 Persianas y toldos motorizados
+H3 Climatización y control de consumo
+H3 Seguridad, cámaras y control de accesos
+H2 Domótica en reforma frente a domótica sin obra
+H2 Sistemas con los que trabajamos
+H2 Preguntas frecuentes
+
+Única keyword del proyecto con dificultad alta (KD 54). No es prioridad de fase 1: se publica pero no se le destinan enlaces hasta consolidar el core.
+
+Servicio — boletín eléctrico / CIE  (condicional)
+URL: /boletin-electrico-barcelona/
+Keyword principal: boletin electrico (1.300)   ·   Apoyo: certificado de instalacion electrica (250), electricista boletin electrico (150), boletin electrico barcelona (60)
+H1 Boletín eléctrico en Barcelona: certificado de instalación eléctrica (CIE)
+H2 Qué es el boletín eléctrico y para qué lo necesitas
+H2 Cuándo es obligatorio presentar el CIE
+H3 Alta de luz en una vivienda sin suministro
+H3 Ampliación de potencia contratada
+H3 Instalaciones con más de 20 años
+H3 Cambio de titular o reforma de la instalación
+H2 Cómo conseguir el boletín eléctrico paso a paso
+H2 Qué pasa si la instalación no cumple la normativa
+H2 Preguntas frecuentes
+H3 ¿Cuánto tarda en emitirse el boletín?
+H3 ¿Cuánto tiempo es válido un boletín eléctrico?
+H3 ¿Puede emitirlo cualquier electricista?
+
+Solo se publica si algún instalador de la red está inscrito como REIC en la Generalitat de Catalunya. Es la mayor bolsa de demanda del proyecto (≈ 1.960 búsquedas/mes con KD 0-1) y, de confirmarse, pasaría a ser la segunda prioridad después de la home. Nota: se renuncia a las variantes de precio («precio boletín eléctrico», 200/mes) por la decisión de no publicar tarifas.
+
+Segmento — comunidades de vecinos
+URL: /electricista-comunidades-de-vecinos/
+Keyword principal: electricista para comunidades   ·   Apoyo: electricista comunidad de vecinos barcelona, mantenimiento electrico comunidades
+H1 Electricista para comunidades de vecinos en Barcelona
+H2 Trabajos eléctricos en zonas comunes
+H3 Iluminación de escaleras, rellanos y portales
+H3 Cuadros eléctricos de servicios comunes
+H3 Videoporteros y control de accesos
+H3 Instalación eléctrica de garajes y trasteros
+H2 Adecuación del garaje para puntos de recarga
+H2 Trabajamos con administradores de fincas
+H2 Contrato de mantenimiento anual para la comunidad
+H2 Preguntas frecuentes
+
+Landing B2B orientada a administradores de fincas. Incluir un CTA específico «Soy administrador de fincas» que abra un formulario con campo de número de fincas gestionadas.
+
+Segmento — locales, comercios y oficinas
+URL: /electricista-locales-y-oficinas/
+Keyword principal: electricista locales comerciales barcelona   ·   Apoyo: instalacion electrica local comercial, electricista oficinas barcelona
+H1 Electricista para locales comerciales y oficinas en Barcelona
+H2 Instalación eléctrica para la apertura de un local
+H2 Legalización y certificado para licencia de actividad
+H2 Iluminación comercial y de escaparate
+H2 Alumbrado de emergencia y normativa contra incendios
+H2 Mantenimiento eléctrico para negocios sin cerrar al público
+H2 Preguntas frecuentes
+
+Segmento — industrial
+URL: /electricista-industrial-barcelona/
+Keyword principal: electricistas industriales barcelona (100)   ·   Apoyo: instalaciones electricas industriales barcelona, electricistas para atex barcelona
+H1 Electricistas industriales en Barcelona
+H2 Instalaciones eléctricas industriales de baja tensión
+H2 Cuadros eléctricos industriales y automatismos
+H2 Mantenimiento eléctrico industrial y preventivo
+H2 Instalaciones en atmósferas explosivas (ATEX)
+H2 Legalización de instalaciones industriales
+H2 Sectores con los que trabajamos
+
+Plantilla — landing de zona (replicar por municipio)
+URL: /electricista-{municipio}/
+Keyword principal: electricista {municipio}   ·   Apoyo: electricista urgente {municipio}, electricistas {municipio}, electricista 24 horas {municipio}
+H1 Electricista en {Municipio}: urgencias 24 h e instalaciones
+H2 Electricista urgente en {Municipio} en menos de 60 minutos
+H2 Servicios de electricista en {Municipio}
+H2 Instaladores de la red asignados a {Municipio}
+H2 Zonas y barrios de {Municipio} donde trabajamos
+H2 Trabajos recientes en {Municipio}
+H2 Preguntas frecuentes de clientes de {Municipio}
+
+Regla anti-doorway: mínimo 500 palabras de contenido específico por municipio (barrios reales, tipología de edificio, casos resueltos, tiempos de desplazamiento). Prohibido duplicar el texto cambiando solo el topónimo: Google lo detecta y penaliza el conjunto de zonas. La URL cuelga de la raíz, sin directorio /zonas/.
+
+Conversión — contacto
+URL: /contacto/
+Keyword principal: — (navegacional)   ·   Apoyo: contacto electricista barcelona
+H1 Contacta con nuestros electricistas en Barcelona
+H2 Teléfono y WhatsApp: 657 144 186
+H2 Formulario de contacto
+H2 Zonas de cobertura
+H2 Horario de atención y urgencias 24 h
+
+Sin bloque de tarifas ni de precios orientativos. El foco es el formulario y el contacto directo.
+
+
+5. Sistema de conversión y reparto de leads
+El objetivo del activo es generar llamadas y formularios trazables. Toda página, sin excepción, debe ofrecer las tres vías de contacto: formulario, teléfono y WhatsApp, siempre sobre el mismo número.
+
+
+
+
+
+Contacto único del proyecto
+Teléfono y WhatsApp: 657 144 186. Enlace de llamada tel:+34657144186 y enlace de WhatsApp wa.me/34657144186. Un único número visible en toda la web, con centralita de reparto detrás para enrutar hacia la red de instaladores.
+
+5.1 Formulario de contacto
+Formulario corto, visible sin scroll en desktop y accesible en un clic desde el sticky en móvil. Campos definidos:
+
+
+Campo
+
+Obligatorio
+
+Notas
+
+Nombre
+
+Sí
+
+Campo de texto simple
+
+Teléfono
+
+Sí
+
+Validación de formato español; es el dato crítico del lead
+
+Email
+
+No
+
+Opcional: cada campo obligatorio extra reduce la conversión
+
+Tipo de servicio
+
+Sí
+
+Desplegable con los 6 servicios + «Otro / no lo sé»
+
+Municipio o código postal
+
+Sí
+
+Permite descartar leads fuera de cobertura y enrutar al instalador de la zona
+
+¿Es una urgencia?
+
+Sí
+
+Sí / No. Si marca «Sí», mostrar el teléfono 657 144 186 en pantalla al enviar
+
+Descripción del trabajo
+
+No
+
+Textarea de 3 líneas
+
+Consentimiento RGPD
+
+Sí
+
+Checkbox sin premarcar con enlace a la política de privacidad
+
+Texto del botón: «Pedir presupuesto gratis», nunca «Enviar».
+Microcopy bajo el botón: «Te respondemos en menos de 2 horas laborables. Sin compromiso.»
+Página de gracias propia (/gracias/) con noindex, necesaria para medir conversiones.
+Protección antispam con honeypot o reCAPTCHA v3 invisible, nunca con un captcha que el usuario deba resolver.
+Sin campo de presupuesto estimado ni selector de rango de precio: no se muestran tarifas en ningún punto del embudo.
+
+5.2 Jerarquía de CTAs por página
+
+
+Ubicación
+
+CTA
+
+Comportamiento
+
+Hero (sobre el pliegue)
+
+Llamar 657 144 186 + Pedir presupuesto
+
+Botón de llamada primario en móvil; formulario primario en desktop
+
+Bloque de urgencias (home)
+
+Llamar ahora
+
+Botón de máximo contraste, el elemento más visible de la página
+
+Sticky móvil (inferior)
+
+Llamar · WhatsApp · Presupuesto
+
+Barra fija de 3 botones visible durante todo el scroll
+
+Tras cada bloque de servicio
+
+«¿Necesitas esto? Te llamamos»
+
+CTA en línea con fondo destacado, cada 2-3 secciones
+
+Cierre de página
+
+Formulario completo
+
+Formulario embebido, no un enlace a /contacto/
+
+Footer
+
+Teléfono + WhatsApp
+
+Visible en todas las páginas del sitio
+
+5.3 WhatsApp y llamada
+Enlace de WhatsApp con mensaje prerrellenado distinto por landing («Hola, necesito un electricista urgente en Barcelona»), lo que permite identificar el origen del lead sin herramientas adicionales.
+Botón flotante de WhatsApp en la esquina inferior derecha en desktop; integrado en la barra sticky en móvil.
+Teléfono en formato tel:+34657144186 clicable en toda la web, nunca como imagen ni como texto plano.
+En el bloque de urgencias de la home el teléfono es el CTA primario absoluto: en esas búsquedas el usuario llama, no rellena formularios.
+WhatsApp Business con respuestas rápidas y mensaje de ausencia fuera de horario que remita a la llamada para urgencias.
+
+5.4 Reparto de leads entre la red de instaladores
+Con más de 10 instaladores, el reparto deja de ser un detalle operativo y pasa a ser parte del activo: es lo que permite comprometer tiempos de respuesta en la web y, por tanto, lo que sostiene el mensaje comercial.
+
+
+Elemento
+
+Definición
+
+Enrutamiento
+
+Por municipio o código postal declarado en el formulario y por tipo de servicio (urgencia, obra, B2B)
+
+Urgencias
+
+Asignación al instalador disponible más cercano; si no hay confirmación en 5 minutos, salta al siguiente
+
+Leads de formulario
+
+Entran primero al CRM de la agencia y desde ahí se reenvían, nunca al revés
+
+SLA comprometido
+
+Respuesta en menos de 15 minutos en horario laborable; atención 24 h en urgencias
+
+Trazabilidad
+
+Registro de origen (landing, dispositivo, canal), grabación de llamadas y estado final del lead
+
+Reporting
+
+Panel mensual por instalador y por zona: leads recibidos, atendidos, presupuestados y cerrados
+
+
+
+
+
+Requisitos específicos del modelo Rank & Rent
+Marca neutra y no vinculada a ningún instalador concreto, de modo que el activo pueda realquilarse. Número único de call tracking con grabación y registro de origen. Formulario que envía al CRM propio de la agencia antes de reenviar al instalador. Panel mensual de leads como justificación del alquiler. Dominio, hosting y analítica siempre a nombre de la agencia.
+
+6. Requisitos SEO on-page y técnicos
+6.1 Títulos y metadescripciones
+
+
+Elemento
+
+Regla
+
+Title
+
+Máx. 60 caracteres. Keyword al principio + gancho. Ej.: «Electricista en Barcelona 24 h | Urgencias y presupuesto gratis»
+
+Meta description
+
+Máx. 155 caracteres, con el teléfono 657 144 186 y llamada a la acción explícita
+
+H1
+
+Único por página y distinto del title, con la keyword en lenguaje natural
+
+URL
+
+En minúsculas, con guiones, colgando de la raíz. Sin directorios, stopwords ni fechas
+
+Imágenes
+
+Alt descriptivo con la keyword cuando sea real; nombre de archivo en minúsculas; formato WebP
+
+6.2 Datos estructurados
+Organization + Service en lugar de LocalBusiness con dirección: al no existir ficha de Google Business Profile ni establecimiento de cara al público, declarar una dirección comercial sin respaldo es contraproducente.
+areaServed enumerando los municipios de cobertura en el marcado de cada servicio.
+FAQPage en todas las páginas que incorporen bloque de preguntas frecuentes.
+BreadcrumbList de dos niveles (Inicio > Página), acorde a la arquitectura plana.
+Sin marcado de Offer ni de PriceRange, coherente con la decisión de no publicar tarifas.
+AggregateRating solo si las reseñas son reales y verificables; en caso contrario se omite.
+
+6.3 Técnico y rendimiento
+Core Web Vitals en verde en móvil: LCP < 2,5 s, INP < 200 ms, CLS < 0,1.
+Diseño mobile first: más del 70 % de las búsquedas de urgencia se hacen desde el móvil.
+HTTPS, sitemap.xml, robots.txt y canonical autorreferenciada en todas las páginas.
+Sin contenido duplicado entre landings de zona (ver regla anti-doorway de la sección 4).
+Google Search Console y Google Analytics 4 con eventos de llamada, clic en WhatsApp y envío de formulario.
+
+6.4 Señales de confianza sin ficha de Google
+Al renunciar a Google Business Profile, la confianza debe construirse íntegramente dentro de la web. Es el punto más delicado del proyecto y requiere más esfuerzo de contenido del habitual.
+Número de instalador autorizado visible en el footer si aplica.
+Fotografías reales de trabajos ejecutados, nunca banco de imágenes en las secciones de prueba social.
+Testimonios verificables con nombre, municipio y tipo de trabajo; vídeo breve cuando sea posible.
+Casos resueltos con antes y después en las landings de zona y de cuadro eléctrico.
+Presencia en directorios sectoriales y plataformas de reseñas ajenas a Google.
+Página de aviso legal, política de privacidad y política de cookies completas.
+
+
+
+
+
+Riesgo asumido al no tener ficha de Google
+En consultas como «electricista barcelona» el local pack ocupa la parte superior del resultado y se lleva una porción muy relevante de los clics antes del primer orgánico. Sin ficha, el proyecto compite solo por debajo de ese bloque. La recomendación técnica es crear al menos una ficha verificada, o una por instalador con su dirección real, en cuanto sea viable. Queda registrado como decisión del cliente.
+
+7. Hoja de ruta
+Fase 1 — Núcleo comercial (semanas 1 a 6)
+
+
+#
+
+Tarea
+
+Responsable
+
+Prioridad
+
+1
+
+Cierre de dominio, marca neutra y centralita sobre el 657 144 186
+
+Agencia
+
+ALTA
+
+2
+
+Maquetación de plantillas: home, servicio, zona y blog
+
+Diseño
+
+ALTA
+
+3
+
+Redacción y publicación de la home (general + urgencias 24 h)
+
+Contenidos
+
+ALTA
+
+4
+
+Formulario, sticky de CTAs, WhatsApp e integración con CRM
+
+Desarrollo
+
+ALTA
+
+5
+
+Reglas de enrutamiento de leads entre los instaladores
+
+Agencia
+
+ALTA
+
+6
+
+Publicación de las 6 landings de servicio
+
+Contenidos
+
+MEDIA
+
+7
+
+Analítica: GA4, GSC y eventos de conversión
+
+SEO
+
+MEDIA
+
+8
+
+Confirmación del estado REIC para la landing de boletines
+
+Cliente
+
+ALTA
+
+Fase 2 — Segmentos y zonas (semanas 7 a 14)
+
+
+#
+
+Tarea
+
+Responsable
+
+Prioridad
+
+9
+
+Landings de comunidades, locales e industrial
+
+Contenidos
+
+MEDIA
+
+10
+
+Landings de zona: Badalona, Terrassa, Sabadell y Hospitalet
+
+Contenidos
+
+ALTA
+
+11
+
+Landings de zona: Sant Cugat, Castelldefels y Cornellà
+
+Contenidos
+
+BAJA
+
+12
+
+Enlazado interno definitivo y revisión de canibalizaciones
+
+SEO
+
+MEDIA
+
+13
+
+Directorios sectoriales y citaciones locales sin Google
+
+SEO
+
+MEDIA
+
+14
+
+Recopilación de testimonios y fotos reales de trabajos
+
+Cliente
+
+ALTA
+
+Fase 3 — Contenido y expansión (semanas 15 a 24)
+
+
+#
+
+Tarea
+
+Responsable
+
+Prioridad
+
+15
+
+Blog de soporte: diferencial, normativa y revisiones
+
+Contenidos
+
+MEDIA
+
+16
+
+Landing de puntos de recarga de vehículo eléctrico
+
+Contenidos
+
+MEDIA
+
+17
+
+Landing de videoporteros
+
+Contenidos
+
+BAJA
+
+18
+
+Zonas de expansión: Mataró y Granollers
+
+Contenidos
+
+BAJA
+
+19
+
+Linkbuilding: prensa local y medios del sector
+
+SEO
+
+MEDIA
+
+20
+
+Optimización por CTR y rendimiento de landings
+
+SEO
+
+MEDIA
+
+21
+
+Revisión de la decisión sobre Google Business Profile
+
+Agencia
+
+MEDIA
+
+
+
+
+
+Siguiente paso
+Con la arquitectura ya cerrada, el trabajo pasa a la redacción de la home, que es la página que sostiene todo el retorno del proyecto: concentra 2.510 búsquedas/mes y absorbe el clúster de urgencias, el de mayor CPC del sector. Queda pendiente únicamente la confirmación del estado REIC para activar la landing de boletines.
+
+
+
+
+
+Agencia IA Solutions
+agenciaiasolutions.com
+Documento confidencial. Uso interno y del cliente. Prohibida su distribución sin autorización.
