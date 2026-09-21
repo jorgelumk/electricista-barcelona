@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Phone, MessageCircle, ShieldCheck, Zap } from 'lucide-react';
+import { Phone, MessageCircle, Mail, ShieldCheck, Zap } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -34,6 +34,13 @@ export default function Footer() {
             >
               <MessageCircle className="w-4 h-4 fill-current shrink-0" />
               <span> WhatsApp directo: 657 144 186</span>
+            </a>
+            <a
+              href="mailto:info@electricistasenbarcelona.com"
+              className="flex items-center gap-2 text-slate-300 hover:text-amber-400 transition-colors text-xs pt-1"
+            >
+              <Mail className="w-4 h-4 shrink-0 text-amber-400" />
+              <span> info@electricistasenbarcelona.com</span>
             </a>
           </div>
         </div>

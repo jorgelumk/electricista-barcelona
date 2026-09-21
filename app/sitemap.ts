@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://electricistasenbarcelona.com';
+  const baseUrl = 'https://electricistasbarcelona.com';
 
   const routes = [
     '',
@@ -43,10 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/blog/domotica-sin-obra/',
     '/blog/punto-de-recarga-garaje-comunidad/',
     '/mapa-del-sitio/',
-    '/contacto/',
-    '/aviso-legal/',
-    '/politica-de-privacidad/',
-    '/politica-de-cookies/'
+    '/contacto/'
   ];
 
   return routes.map((route) => ({

@@ -2,9 +2,13 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: 'Política de Privacidad | Electricistas Barcelona',
-  description: 'Información sobre el tratamiento de datos personales en electricistasenbarcelona.com de acuerdo con el RGPD y LOPDGDD.',
+  description: 'Información sobre el tratamiento de datos personales en electricistasbarcelona.com de acuerdo con el RGPD y LOPDGDD.',
+  robots: {
+    index: false,
+    follow: true,
+  },
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/politica-de-privacidad/',
+    canonical: 'https://electricistasbarcelona.com/politica-de-privacidad/',
   }
 };
 
@@ -30,7 +34,7 @@ export default function PoliticaPrivacidadPage() {
         </p>
         <ul className="list-disc pl-5 space-y-1 text-slate-700 font-medium">
           <li><strong>Responsable:</strong> Agencia IA Solutions</li>
-          <li><strong>Correo electrónico de contacto:</strong> jorge@agenciaiasolutions.com</li>
+          <li><strong>Correo electrónico de contacto:</strong> info@electricistasenbarcelona.com</li>
           <li><strong>Teléfono de atención:</strong> 657 144 186</li>
           <li><strong>Sitio Web:</strong> electricistasenbarcelona.com</li>
         </ul>
@@ -113,7 +117,7 @@ export default function PoliticaPrivacidadPage() {
         </ul>
         <div className="pt-2">
           <p>
-            Para ejercitar cualquiera de estos derechos, puede enviar una solicitud por escrito a la dirección de correo electrónico <strong>jorge@agenciaiasolutions.com</strong> especificando en el asunto &quot;Ejercicio de Derechos de Protección de Datos&quot; y acompañando una copia de su DNI o documento equivalente de identificación.
+            Para ejercitar cualquiera de estos derechos, puede enviar una solicitud por escrito a la dirección de correo electrónico <strong>info@electricistasenbarcelona.com</strong> especificando en el asunto &quot;Ejercicio de Derechos de Protección de Datos&quot; y acompañando una copia de su DNI o documento equivalente de identificación.
           </p>
           <p className="mt-2 text-xs text-slate-500">
             Asimismo, le informamos de que tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) a través de su sitio web oficial (www.aepd.es) si considera que sus derechos han sido vulnerados.

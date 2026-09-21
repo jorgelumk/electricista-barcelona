@@ -18,6 +18,7 @@ export function generateOrganizationSchema() {
     url: 'https://electricistasenbarcelona.com',
     logo: 'https://electricistasenbarcelona.com/images/hero_electrician.jpg',
     telephone: '+34657144186',
+    email: 'info@electricistasenbarcelona.com',
     contactPoint: [
       {
         '@type': 'ContactPoint',

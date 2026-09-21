@@ -2,9 +2,13 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: 'Aviso Legal | Electricistas Barcelona',
-  description: 'Información legal, datos identificativos y condiciones de uso del sitio web electricistasenbarcelona.com.',
+  description: 'Información legal, datos identificativos y condiciones de uso del sitio web electricistasbarcelona.com.',
+  robots: {
+    index: false,
+    follow: true,
+  },
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/aviso-legal/',
+    canonical: 'https://electricistasbarcelona.com/aviso-legal/',
   }
 };
 
@@ -31,7 +35,7 @@ export default function AvisoLegalPage() {
         <ul className="list-disc pl-5 space-y-1 text-slate-700 font-medium">
           <li><strong>Titular de la plataforma:</strong> Agencia IA Solutions</li>
           <li><strong>Sitio Web:</strong> electricistasenbarcelona.com</li>
-          <li><strong>Correo electrónico de contacto:</strong> jorge@agenciaiasolutions.com</li>
+          <li><strong>Correo electrónico de contacto:</strong> info@electricistasenbarcelona.com</li>
           <li><strong>Teléfono de atención:</strong> 657 144 186</li>
           <li><strong>Actividad principal:</strong> Plataforma digital intermediaria de captación y gestión de solicitudes de servicios de electricidad y reformas en Barcelona y área metropolitana.</li>
         </ul>

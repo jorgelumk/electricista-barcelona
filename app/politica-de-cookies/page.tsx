@@ -2,9 +2,13 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: 'Política de Cookies | Electricistas Barcelona',
-  description: 'Información sobre el uso de cookies y tecnologías de almacenamiento en electricistasenbarcelona.com según la guía de la AEPD.',
+  description: 'Información sobre el uso de cookies y tecnologías de almacenamiento en electricistasbarcelona.com según la guía de la AEPD.',
+  robots: {
+    index: false,
+    follow: true,
+  },
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/politica-de-cookies/',
+    canonical: 'https://electricistasbarcelona.com/politica-de-cookies/',
   }
 };
 

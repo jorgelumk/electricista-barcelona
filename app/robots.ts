@@ -5,8 +5,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/gracias/', '/api/'],
+      disallow: ['/gracias/', '/api/', '/aviso-legal/', '/politica-de-privacidad/', '/politica-de-cookies/'],
     },
-    sitemap: 'https://electricistasenbarcelona.com/sitemap.xml',
+    sitemap: 'https://electricistasbarcelona.com/sitemap.xml',
   };
 }

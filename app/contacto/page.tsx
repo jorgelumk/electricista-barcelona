@@ -73,8 +73,10 @@ export default function ContactoPage() {
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <span className="text-xs text-slate-400 block font-semibold">Correo de Gestión de Leads</span>
-                  <span className="text-sm font-semibold text-slate-200">jorge@agenciaiasolutions.com</span>
+                  <span className="text-xs text-slate-400 block font-semibold">Correo Electrónico de Contacto</span>
+                  <a href="mailto:info@electricistasenbarcelona.com" className="text-sm font-bold text-amber-400 hover:underline">
+                    info@electricistasenbarcelona.com
+                  </a>
                 </div>
               </div>
 
