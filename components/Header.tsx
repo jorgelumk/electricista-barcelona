@@ -60,7 +60,7 @@ export default function Header() {
           </div>
           <div>
             <span className="text-xl sm:text-2xl font-black tracking-tight text-white block leading-none">
-              ELECTRICISTAS<span className="text-amber-400">BARCELONA</span>
+              ELECTRICISTAS EN <span className="text-amber-400">BARCELONA</span>
             </span>
             <span className="text-[11px] text-slate-300 uppercase tracking-wider block font-bold mt-0.5">
               Instalaciones & Urgencias 24h

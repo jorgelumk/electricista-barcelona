@@ -12,7 +12,7 @@ export default function Footer() {
               <Zap className="w-5 h-5 fill-current" />
             </div>
             <span className="text-lg font-black text-white tracking-tight">
-              ELECTRICISTAS<span className="text-amber-400">BARCELONA</span>
+              ELECTRICISTAS EN <span className="text-amber-400">BARCELONA</span>
             </span>
           </Link>
           <p className="text-xs text-slate-400 leading-relaxed">
