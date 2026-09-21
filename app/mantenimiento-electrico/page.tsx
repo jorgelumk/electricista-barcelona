@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Mantenimiento Eléctrico en Barcelona | Comunidades y Empresas',
   description: 'Mantenimiento eléctrico preventivo y correctivo para comunidades de propietarios, oficinas y comercios en Barcelona. Cumplimiento normativa. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/mantenimiento-electrico/',
+    canonical: 'https://electricistasenbarcelona.com/mantenimiento-electrico/',
   }
 };
 
@@ -21,7 +21,7 @@ export default function MantenimientoElectricoPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Mantenimiento Eléctrico en Barcelona',
     description: 'Servicio integral de mantenimiento eléctrico preventivo y correctivo para comunidades de propietarios, locales comerciales y oficinas en Barcelona.',
-    url: 'https://electricistasbarcelona.com/mantenimiento-electrico/'
+    url: 'https://electricistasenbarcelona.com/mantenimiento-electrico/'
   });
 
   const faqs = [
@@ -110,7 +110,7 @@ export default function MantenimientoElectricoPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Mantenimiento Eléctrico"
-            currentPageUrl="https://electricistasbarcelona.com/mantenimiento-electrico/"
+            currentPageUrl="https://electricistasenbarcelona.com/mantenimiento-electrico/"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

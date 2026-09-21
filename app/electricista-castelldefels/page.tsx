@@ -12,7 +12,7 @@ export const metadata = {
   title: 'Electricista en Castelldefels 24 Horas | Urgencias e Instalaciones',
   description: 'Electricistas autorizados en Castelldefels. Urgencias 24h en menos de 60 min en Platja, Bellamar, Montmar y Centro. 📱 657 144 186. ¡Presupuesto gratis!',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/electricista-castelldefels/',
+    canonical: 'https://electricistasenbarcelona.com/electricista-castelldefels/',
   }
 };
 
@@ -20,7 +20,7 @@ export default function ElectricistaCastelldefelsPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Servicios de Electricista y Urgencias 24 Horas en Castelldefels',
     description: 'Electricistas autorizados en Castelldefels para urgencias 24h, averías, boletines eléctricos (CIE), cambio de cuadros eléctricos y reformas.',
-    url: 'https://electricistasbarcelona.com/electricista-castelldefels/',
+    url: 'https://electricistasenbarcelona.com/electricista-castelldefels/',
     areaServed: ['Castelldefels', 'Platja', 'Bellamar', 'Montmar', 'Can Bou', 'Els Canyars', 'Baixador']
   });
 
@@ -61,7 +61,7 @@ export default function ElectricistaCastelldefelsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-4">
           <Breadcrumbs
             currentPageTitle="Electricista en Castelldefels"
-            currentPageUrl="https://electricistasbarcelona.com/electricista-castelldefels/"
+            currentPageUrl="https://electricistasenbarcelona.com/electricista-castelldefels/"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Instalaciones Eléctricas en Barcelona | Viviendas, Locales y Naves',
   description: 'Proyectos e instalaciones eléctricas en Barcelona de baja tensión para viviendas, locales comerciales y comunidades. Presupuesto sin compromiso. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/instalaciones-electricas-barcelona/',
+    canonical: 'https://electricistasenbarcelona.com/instalaciones-electricas-barcelona/',
   }
 };
 
@@ -21,7 +21,7 @@ export default function InstalacionesElectricasPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Instalaciones Eléctricas en Barcelona',
     description: 'Servicio profesional de montaje y renovación de instalaciones eléctricas de baja tensión en viviendas, locales y naves en Barcelona.',
-    url: 'https://electricistasbarcelona.com/instalaciones-electricas-barcelona/'
+    url: 'https://electricistasenbarcelona.com/instalaciones-electricas-barcelona/'
   });
 
   const faqs = [
@@ -110,7 +110,7 @@ export default function InstalacionesElectricasPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Instalaciones Eléctricas en Barcelona"
-            currentPageUrl="https://electricistasbarcelona.com/instalaciones-electricas-barcelona/"
+            currentPageUrl="https://electricistasenbarcelona.com/instalaciones-electricas-barcelona/"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

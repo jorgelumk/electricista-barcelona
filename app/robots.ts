@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/gracias/', '/api/'],
     },
-    sitemap: 'https://electricistasbarcelona.com/sitemap.xml',
+    sitemap: 'https://electricistasenbarcelona.com/sitemap.xml',
   };
 }

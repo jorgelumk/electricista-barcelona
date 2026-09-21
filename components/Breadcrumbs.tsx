@@ -22,16 +22,16 @@ export default function Breadcrumbs({ currentPageTitle, currentPageUrl, items, d
   if (items && items.length > 0) {
     breadcrumbItems = items.map((it, idx) => ({
       name: it.name || it.label || `Página ${idx + 1}`,
-      url: it.url || (it.href ? `https://electricistasbarcelona.com${it.href}` : 'https://electricistasbarcelona.com')
+      url: it.url || (it.href ? `https://electricistasenbarcelona.com${it.href}` : 'https://electricistasenbarcelona.com')
     }));
   } else {
     breadcrumbItems = [
-      { name: currentPageTitle || 'Página', url: currentPageUrl || 'https://electricistasbarcelona.com' }
+      { name: currentPageTitle || 'Página', url: currentPageUrl || 'https://electricistasenbarcelona.com' }
     ];
   }
 
   const fullBreadcrumbsForSchema = [
-    { name: 'Inicio', url: 'https://electricistasbarcelona.com' },
+    { name: 'Inicio', url: 'https://electricistasenbarcelona.com' },
     ...breadcrumbItems
   ];
 
@@ -71,7 +71,7 @@ export default function Breadcrumbs({ currentPageTitle, currentPageUrl, items, d
               </span>
             ) : (
               <Link
-                href={item.url.replace('https://electricistasbarcelona.com', '') || '/'}
+                href={item.url.replace('https://electricistasenbarcelona.com', '') || '/'}
                 className={`font-medium transition-colors ${
                   dark ? 'hover:text-amber-400 text-slate-300' : 'hover:text-amber-600 text-slate-600'
                 }`}

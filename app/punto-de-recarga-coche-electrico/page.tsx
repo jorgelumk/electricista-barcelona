@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Instalación Punto de Recarga Coche Eléctrico en Barcelona | Wallbox',
   description: 'Instalación de cargadores de vehículo eléctrico en Barcelona para garajes comunitarios y viviendas unifamiliares. Gestión de ayudas Plan MOVES III. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/punto-de-recarga-coche-electrico/',
+    canonical: 'https://electricistasenbarcelona.com/punto-de-recarga-coche-electrico/',
   }
 };
 
@@ -21,7 +21,7 @@ export default function PuntoRecargaPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Instalación Punto de Recarga Coche Eléctrico en Barcelona',
     description: 'Instalación autorizada de cargadores de vehículo eléctrico (Wallbox) según normativa ITC-BT-52 en Barcelona.',
-    url: 'https://electricistasbarcelona.com/punto-de-recarga-coche-electrico/'
+    url: 'https://electricistasenbarcelona.com/punto-de-recarga-coche-electrico/'
   });
 
   const faqs = [
@@ -110,7 +110,7 @@ export default function PuntoRecargaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Punto de Recarga Coche Eléctrico"
-            currentPageUrl="https://electricistasbarcelona.com/punto-de-recarga-coche-electrico/"
+            currentPageUrl="https://electricistasenbarcelona.com/punto-de-recarga-coche-electrico/"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

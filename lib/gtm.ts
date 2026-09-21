@@ -4,7 +4,7 @@ declare global {
   }
 }
 
-export const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || '';
+export const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || 'GTM-5RM8QMRR';
 
 export const sendGTMEvent = (data: Record<string, any>) => {
   if (typeof window !== 'undefined') {

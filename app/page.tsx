@@ -11,7 +11,7 @@ export const metadata = {
   title: 'Electricistas en Barcelona | Instalaciones, Reformas y Servicio Técnico 24h',
   description: 'Electricistas profesionales autorizados en Barcelona. Instalaciones, boletines CIE, cuadros, reformas, cargadores y urgencias 24h. Presupuesto previo. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com',
+    canonical: 'https://electricistasenbarcelona.com',
   }
 };
 
@@ -19,7 +19,7 @@ export default function Home() {
   const serviceSchema = generateServiceSchema({
     name: 'Servicios Electricistas Integrales en Barcelona',
     description: 'Electricistas en Barcelona para instalaciones, boletines eléctricos (CIE), cambio de cuadros, reformas y asistencia técnica 24 horas.',
-    url: 'https://electricistasbarcelona.com'
+    url: 'https://electricistasenbarcelona.com'
   });
 
   const faqs = [

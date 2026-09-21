@@ -15,8 +15,8 @@ export function generateOrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Electricistas Barcelona',
-    url: 'https://electricistasbarcelona.com',
-    logo: 'https://electricistasbarcelona.com/images/hero_electrician.jpg',
+    url: 'https://electricistasenbarcelona.com',
+    logo: 'https://electricistasenbarcelona.com/images/hero_electrician.jpg',
     telephone: '+34657144186',
     contactPoint: [
       {
@@ -62,7 +62,7 @@ export function generateServiceSchema({ name, description, url, areaServed }: Se
       '@type': 'Organization',
       name: 'Electricistas Barcelona',
       telephone: '+34657144186',
-      url: 'https://electricistasbarcelona.com'
+      url: 'https://electricistasenbarcelona.com'
     },
     areaServed: (areaServed || defaultAreas).map((area) => ({
       '@type': 'City',

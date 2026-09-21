@@ -193,6 +193,7 @@ export default function Header() {
             <div className="flex gap-2">
               <a
                 href="tel:+34657144186"
+                onClick={trackPhoneClick}
                 className="flex-1 bg-slate-950 text-amber-400 font-black text-center py-2.5 rounded-lg text-sm flex items-center justify-center gap-1.5"
               >
                 <Phone className="w-4 h-4 fill-current" />
@@ -202,6 +203,7 @@ export default function Header() {
                 href="https://wa.me/34657144186?text=Hola,%20necesito%20un%20electricista%20en%20Barcelona"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={trackWhatsAppClick}
                 className="bg-emerald-700 text-white font-bold px-3 py-2.5 rounded-lg text-xs flex items-center justify-center"
               >
                 <MessageCircle className="w-4 h-4" />

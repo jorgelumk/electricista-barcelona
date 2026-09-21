@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Contacto Electricistas Barcelona | Teléfono 657 144 186',
   description: 'Atención al cliente y presupuesto de electricidad en Barcelona. Llámanos al 📱 657 144 186 o envíanos un WhatsApp. Presupuesto sin compromiso.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/contacto/',
+    canonical: 'https://electricistasenbarcelona.com/contacto/',
   }
 };
 
@@ -16,7 +16,7 @@ export default function ContactoPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
       <Breadcrumbs
         currentPageTitle="Contacto"
-        currentPageUrl="https://electricistasbarcelona.com/contacto/"
+        currentPageUrl="https://electricistasenbarcelona.com/contacto/"
       />
 
       <div className="text-center max-w-3xl mx-auto space-y-3">

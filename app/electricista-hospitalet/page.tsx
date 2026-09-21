@@ -12,7 +12,7 @@ export const metadata = {
   title: 'Electricista en L\'Hospitalet 24 Horas | Urgencias e Instalaciones',
   description: 'Electricistas autorizados en L\'Hospitalet de Llobregat. Urgencias 24h en menos de 60 min en Bellvitge, Collblanc, Santa Eulàlia y Torrassa. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/electricista-hospitalet/',
+    canonical: 'https://electricistasenbarcelona.com/electricista-hospitalet/',
   }
 };
 
@@ -20,7 +20,7 @@ export default function ElectricistaHospitaletPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Servicios de Electricista y Urgencias 24 Horas en L\'Hospitalet de Llobregat',
     description: 'Electricistas autorizados en L\'Hospitalet para urgencias 24h, averías, boletines eléctricos (CIE), cambio de cuadros eléctricos y reformas.',
-    url: 'https://electricistasbarcelona.com/electricista-hospitalet/',
+    url: 'https://electricistasenbarcelona.com/electricista-hospitalet/',
     areaServed: ['L\'Hospitalet de Llobregat', 'Bellvitge', 'Collblanc', 'Torrassa', 'Santa Eulàlia', 'Pubilla Cases']
   });
 
@@ -61,7 +61,7 @@ export default function ElectricistaHospitaletPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-4">
           <Breadcrumbs
             currentPageTitle="Electricista en L'Hospitalet de Llobregat"
-            currentPageUrl="https://electricistasbarcelona.com/electricista-hospitalet/"
+            currentPageUrl="https://electricistasenbarcelona.com/electricista-hospitalet/"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

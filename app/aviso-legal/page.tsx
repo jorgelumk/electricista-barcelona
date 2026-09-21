@@ -2,9 +2,9 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: 'Aviso Legal | Electricistas Barcelona',
-  description: 'Información legal, datos identificativos y condiciones de uso del sitio web electricistasbarcelona.com.',
+  description: 'Información legal, datos identificativos y condiciones de uso del sitio web electricistasenbarcelona.com.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/aviso-legal/',
+    canonical: 'https://electricistasenbarcelona.com/aviso-legal/',
   }
 };
 
@@ -13,7 +13,7 @@ export default function AvisoLegalPage() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8 text-slate-800 leading-relaxed text-sm">
       <Breadcrumbs
         currentPageTitle="Aviso Legal"
-        currentPageUrl="https://electricistasbarcelona.com/aviso-legal/"
+        currentPageUrl="https://electricistasenbarcelona.com/aviso-legal/"
       />
 
       <div className="border-b border-slate-200 pb-4">
@@ -30,7 +30,7 @@ export default function AvisoLegalPage() {
         </p>
         <ul className="list-disc pl-5 space-y-1 text-slate-700 font-medium">
           <li><strong>Titular de la plataforma:</strong> Agencia IA Solutions</li>
-          <li><strong>Sitio Web:</strong> electricistasbarcelona.com</li>
+          <li><strong>Sitio Web:</strong> electricistasenbarcelona.com</li>
           <li><strong>Correo electrónico de contacto:</strong> jorge@agenciaiasolutions.com</li>
           <li><strong>Teléfono de atención:</strong> 657 144 186</li>
           <li><strong>Actividad principal:</strong> Plataforma digital intermediaria de captación y gestión de solicitudes de servicios de electricidad y reformas en Barcelona y área metropolitana.</li>
@@ -40,7 +40,7 @@ export default function AvisoLegalPage() {
       <section className="space-y-3 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
         <h2 className="text-xl font-bold text-slate-900 border-b border-slate-100 pb-2">2. Objeto y Modelo de Negocio</h2>
         <p>
-          El presente sitio web (electricistasbarcelona.com) funciona bajo un modelo de plataforma intermediaria digital y red de captación de solicitudes de servicio técnico.
+          El presente sitio web (electricistasenbarcelona.com) funciona bajo un modelo de plataforma intermediaria digital y red de captación de solicitudes de servicio técnico.
         </p>
         <p>
           Agencia IA Solutions actúa exclusivamente como prestadora de servicios de intermediación de la sociedad de la información, facilitando el contacto entre los usuarios interesados en contratar servicios eléctricos y una red de electricistas e instaladores autorizados independientes con acreditación REIC (Registre d’Instal·ladors de Catalunya) correspondiente a cada zona geográfica de actuación.

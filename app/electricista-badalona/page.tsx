@@ -12,7 +12,7 @@ export const metadata = {
   title: 'Electricista en Badalona 24 Horas | Urgencias e Instalaciones Autorizadas',
   description: 'Electricistas autorizados en Badalona. Atención de urgencias 24h en menos de 60 min en Progrés, Gorg, Llefià, Montigalà y Centro. 📱 657 144 186. ¡Presupuesto gratis!',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/electricista-badalona/',
+    canonical: 'https://electricistasenbarcelona.com/electricista-badalona/',
   }
 };
 
@@ -20,7 +20,7 @@ export default function ElectricistaBadalonaPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Servicios de Electricista y Urgencias 24 Horas en Badalona',
     description: 'Electricistas autorizados en Badalona para urgencias 24h, averías, boletines eléctricos (CIE), cambio de cuadros eléctricos y reformas integrales.',
-    url: 'https://electricistasbarcelona.com/electricista-badalona/',
+    url: 'https://electricistasenbarcelona.com/electricista-badalona/',
     areaServed: ['Badalona', 'Progrés', 'Gorg', 'Llefià', 'Montigalà', 'Pep Ventura', 'Dalt de la Vila']
   });
 
@@ -65,7 +65,7 @@ export default function ElectricistaBadalonaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-4">
           <Breadcrumbs
             currentPageTitle="Electricista en Badalona"
-            currentPageUrl="https://electricistasbarcelona.com/electricista-badalona/"
+            currentPageUrl="https://electricistasenbarcelona.com/electricista-badalona/"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

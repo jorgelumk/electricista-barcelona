@@ -2,9 +2,9 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: 'Política de Cookies | Electricistas Barcelona',
-  description: 'Información sobre el uso de cookies y tecnologías de almacenamiento en electricistasbarcelona.com según la guía de la AEPD.',
+  description: 'Información sobre el uso de cookies y tecnologías de almacenamiento en electricistasenbarcelona.com según la guía de la AEPD.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/politica-de-cookies/',
+    canonical: 'https://electricistasenbarcelona.com/politica-de-cookies/',
   }
 };
 
@@ -13,7 +13,7 @@ export default function PoliticaCookiesPage() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8 text-slate-800 leading-relaxed text-sm">
       <Breadcrumbs
         currentPageTitle="Política de Cookies"
-        currentPageUrl="https://electricistasbarcelona.com/politica-de-cookies/"
+        currentPageUrl="https://electricistasenbarcelona.com/politica-de-cookies/"
       />
 
       <div className="border-b border-slate-200 pb-4">
@@ -36,7 +36,7 @@ export default function PoliticaCookiesPage() {
       <section className="space-y-3 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
         <h2 className="text-xl font-bold text-slate-900 border-b border-slate-100 pb-2">2. Tipos de Cookies Utilizadas en este Sitio Web</h2>
         <p>
-          El sitio web <strong>electricistasbarcelona.com</strong> utiliza los siguientes tipos de cookies para su correcto funcionamiento y optimización:
+          El sitio web <strong>electricistasenbarcelona.com</strong> utiliza los siguientes tipos de cookies para su correcto funcionamiento y optimización:
         </p>
         <div className="space-y-3 pt-2">
           <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">

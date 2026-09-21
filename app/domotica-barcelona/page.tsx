@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Instalación de Domótica en Barcelona | Hogar Inteligente y Eficiencia',
   description: 'Instalación de sistemas domóticos en Barcelona. Control de iluminación, persianas motorizadas, clima y seguridad desde tu móvil. Presupuesto sin compromiso. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/domotica-barcelona/',
+    canonical: 'https://electricistasenbarcelona.com/domotica-barcelona/',
   }
 };
 
@@ -21,7 +21,7 @@ export default function DomoticaPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Domótica y Automatización en Barcelona',
     description: 'Instalación de sistemas domóticos profesionales para control inteligente de iluminación, climatización, persianas y gestión energética en Barcelona.',
-    url: 'https://electricistasbarcelona.com/domotica-barcelona/'
+    url: 'https://electricistasenbarcelona.com/domotica-barcelona/'
   });
 
   const faqs = [
@@ -110,7 +110,7 @@ export default function DomoticaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Domótica en Barcelona"
-            currentPageUrl="https://electricistasbarcelona.com/domotica-barcelona/"
+            currentPageUrl="https://electricistasenbarcelona.com/domotica-barcelona/"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

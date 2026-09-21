@@ -103,7 +103,7 @@ export default function MapaDelSitioPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
       <Breadcrumbs
         currentPageTitle="Mapa del Sitio Web"
-        currentPageUrl="https://electricistasbarcelona.com/mapa-del-sitio/"
+        currentPageUrl="https://electricistasenbarcelona.com/mapa-del-sitio/"
       />
 
       {/* HEADER HERO */}

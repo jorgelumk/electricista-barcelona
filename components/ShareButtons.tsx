@@ -11,7 +11,7 @@ interface ShareButtonsProps {
 export default function ShareButtons({ title, url }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
 
-  const fullUrl = typeof window !== 'undefined' ? `${window.location.origin}${url}` : `https://electricistasbarcelona.com${url}`;
+  const fullUrl = typeof window !== 'undefined' ? `${window.location.origin}${url}` : `https://electricistasenbarcelona.com${url}`;
   const encodedUrl = encodeURIComponent(fullUrl);
   const encodedTitle = encodeURIComponent(title);
 

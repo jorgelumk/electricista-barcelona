@@ -7,7 +7,7 @@ interface GoogleTagManagerProps {
 }
 
 export default function GoogleTagManager({ gtmId }: GoogleTagManagerProps) {
-  const id = gtmId || process.env.NEXT_PUBLIC_GTM_ID;
+  const id = gtmId || process.env.NEXT_PUBLIC_GTM_ID || 'GTM-5RM8QMRR';
 
   if (!id) {
     return null;

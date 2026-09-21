@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Electricista Industrial en Barcelona | Cuadros Trifásicos y Naves',
   description: 'Instalación y mantenimiento eléctrico industrial en Barcelona para naves, talleres y fábricas. Acometidas trifásicas y baterías de condensadores. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/electricista-industrial-barcelona/',
+    canonical: 'https://electricistasenbarcelona.com/electricista-industrial-barcelona/',
   }
 };
 
@@ -21,7 +21,7 @@ export default function IndustrialPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Electricista Industrial en Barcelona',
     description: 'Servicio técnico especializado en instalaciones eléctricas industriales de baja tensión, cuadros trifásicos y naves en Barcelona.',
-    url: 'https://electricistasbarcelona.com/electricista-industrial-barcelona/'
+    url: 'https://electricistasenbarcelona.com/electricista-industrial-barcelona/'
   });
 
   const faqs = [
@@ -106,7 +106,7 @@ export default function IndustrialPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Electricista Industrial"
-            currentPageUrl="https://electricistasbarcelona.com/electricista-industrial-barcelona/"
+            currentPageUrl="https://electricistasenbarcelona.com/electricista-industrial-barcelona/"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

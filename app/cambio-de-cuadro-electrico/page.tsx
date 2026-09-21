@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Cambiar Cuadro Eléctrico en Barcelona | Protecciones Homologadas',
   description: 'Cambio y actualización de cuadro eléctrico de vivienda en Barcelona. Sustitución de plomos por IGA, sobretensiones y diferenciales SI. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/cambio-de-cuadro-electrico/',
+    canonical: 'https://electricistasenbarcelona.com/cambio-de-cuadro-electrico/',
   }
 };
 
@@ -21,7 +21,7 @@ export default function CambioCuadroElectricoPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Cambio de Cuadro Eléctrico en Barcelona',
     description: 'Sustitución de cuadros eléctricos antiguos de plomos por cajas modernas de protección con diferencial superinmunizado, IGA y protector de sobretensiones.',
-    url: 'https://electricistasbarcelona.com/cambio-de-cuadro-electrico/'
+    url: 'https://electricistasenbarcelona.com/cambio-de-cuadro-electrico/'
   });
 
   const faqs = [
@@ -110,7 +110,7 @@ export default function CambioCuadroElectricoPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Cambio de Cuadro Eléctrico"
-            currentPageUrl="https://electricistasbarcelona.com/cambio-de-cuadro-electrico/"
+            currentPageUrl="https://electricistasenbarcelona.com/cambio-de-cuadro-electrico/"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

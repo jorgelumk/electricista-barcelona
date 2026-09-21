@@ -2,9 +2,9 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: 'Política de Privacidad | Electricistas Barcelona',
-  description: 'Información sobre el tratamiento de datos personales en electricistasbarcelona.com de acuerdo con el RGPD y LOPDGDD.',
+  description: 'Información sobre el tratamiento de datos personales en electricistasenbarcelona.com de acuerdo con el RGPD y LOPDGDD.',
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/politica-de-privacidad/',
+    canonical: 'https://electricistasenbarcelona.com/politica-de-privacidad/',
   }
 };
 
@@ -13,7 +13,7 @@ export default function PoliticaPrivacidadPage() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8 text-slate-800 leading-relaxed text-sm">
       <Breadcrumbs
         currentPageTitle="Política de Privacidad"
-        currentPageUrl="https://electricistasbarcelona.com/politica-de-privacidad/"
+        currentPageUrl="https://electricistasenbarcelona.com/politica-de-privacidad/"
       />
 
       <div className="border-b border-slate-200 pb-4">
@@ -26,13 +26,13 @@ export default function PoliticaPrivacidadPage() {
       <section className="space-y-3 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
         <h2 className="text-xl font-bold text-slate-900 border-b border-slate-100 pb-2">1. Responsable del Tratamiento de sus Datos</h2>
         <p>
-          En cumplimiento de la normativa vigente en materia de protección de datos personales, le informamos de que los datos facilitados a través de los formularios o canales de comunicación del sitio web <strong>electricistasbarcelona.com</strong> serán tratados por:
+          En cumplimiento de la normativa vigente en materia de protección de datos personales, le informamos de que los datos facilitados a través de los formularios o canales de comunicación del sitio web <strong>electricistasenbarcelona.com</strong> serán tratados por:
         </p>
         <ul className="list-disc pl-5 space-y-1 text-slate-700 font-medium">
           <li><strong>Responsable:</strong> Agencia IA Solutions</li>
           <li><strong>Correo electrónico de contacto:</strong> jorge@agenciaiasolutions.com</li>
           <li><strong>Teléfono de atención:</strong> 657 144 186</li>
-          <li><strong>Sitio Web:</strong> electricistasbarcelona.com</li>
+          <li><strong>Sitio Web:</strong> electricistasenbarcelona.com</li>
         </ul>
       </section>
 

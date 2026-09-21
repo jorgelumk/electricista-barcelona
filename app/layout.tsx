@@ -8,7 +8,7 @@ import GoogleTagManager from '@/components/GoogleTagManager';
 import { generateOrganizationSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://electricistasbarcelona.com'),
+  metadataBase: new URL('https://electricistasenbarcelona.com'),
   title: {
     default: 'Electricista en Barcelona 24 h | Urgencias y Presupuesto Gratis',
     template: '%s | Electricistas Barcelona'
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'es_ES',
-    url: 'https://electricistasbarcelona.com',
+    url: 'https://electricistasenbarcelona.com',
     siteName: 'Electricistas Barcelona',
     title: 'Electricista en Barcelona 24 h | Urgencias e Instalaciones',
     description: 'Servicio urgente 24 horas de electricistas autorizados en Barcelona. Atención en menos de 60 min sin sorpresas en la factura. 📱 657 144 186.',
@@ -67,7 +67,10 @@ export const metadata: Metadata = {
     images: ['/images/hero_electrician.jpg'],
   },
   alternates: {
-    canonical: 'https://electricistasbarcelona.com',
+    canonical: 'https://electricistasenbarcelona.com',
+  },
+  verification: {
+    google: 'I8d6Q_ONE8IQ7t80T4Va4lT2nId6dI3YNftDCp1Q2l4',
   }
 };
 
