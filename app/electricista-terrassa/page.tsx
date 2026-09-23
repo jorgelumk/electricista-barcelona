@@ -12,7 +12,7 @@ export const metadata = {
   title: 'Electricista en Terrassa 24 Horas | Urgencias e Instalaciones',
   description: 'Electricistas autorizados en Terrassa. Urgencias 24h en menos de 60 min en Centre, Ca n’Aurell, Sant Pere y Vallparadís. 📱 657 144 186. ¡Presupuesto gratis!',
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/electricista-terrassa/',
+    canonical: 'https://electricistasenbarcelona.com/electricista-terrassa',
   }
 };
 
@@ -20,7 +20,7 @@ export default function ElectricistaTerrassaPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Servicios de Electricista y Urgencias 24 Horas en Terrassa',
     description: 'Electricistas autorizados en Terrassa para urgencias 24h, averías, boletines eléctricos (CIE), cambio de cuadros eléctricos y reformas.',
-    url: 'https://electricistasenbarcelona.com/electricista-terrassa/',
+    url: 'https://electricistasenbarcelona.com/electricista-terrassa',
     areaServed: ['Terrassa', 'Centre', 'Ca n\'Aurell', 'Sant Pere', 'Vallparadís', 'Can Boada', 'Can Parellada']
   });
 
@@ -61,7 +61,7 @@ export default function ElectricistaTerrassaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-4">
           <Breadcrumbs
             currentPageTitle="Electricista en Terrassa"
-            currentPageUrl="https://electricistasenbarcelona.com/electricista-terrassa/"
+            currentPageUrl="https://electricistasenbarcelona.com/electricista-terrassa"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

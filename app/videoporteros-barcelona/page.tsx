@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Instalación y Reparación de Videoporteros en Barcelona | Telefonillos e Interfonía',
   description: 'Instalación y reparación de videoporteros y porteros automáticos en Barcelona. Soluciones para comunidades de vecinos y viviendas unifamiliares. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/videoporteros-barcelona/',
+    canonical: 'https://electricistasenbarcelona.com/videoporteros-barcelona',
   }
 };
 
@@ -21,7 +21,7 @@ export default function VideoporterosPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Instalación y Reparación de Videoporteros en Barcelona',
     description: 'Servicio técnico especializado en montaje, reparación y cambio de videoporteros y interfonos en Barcelona.',
-    url: 'https://electricistasenbarcelona.com/videoporteros-barcelona/'
+    url: 'https://electricistasenbarcelona.com/videoporteros-barcelona'
   });
 
   const faqs = [
@@ -110,7 +110,7 @@ export default function VideoporterosPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Videoporteros en Barcelona"
-            currentPageUrl="https://electricistasenbarcelona.com/videoporteros-barcelona/"
+            currentPageUrl="https://electricistasenbarcelona.com/videoporteros-barcelona"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

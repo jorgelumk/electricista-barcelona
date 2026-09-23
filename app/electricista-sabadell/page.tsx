@@ -12,7 +12,7 @@ export const metadata = {
   title: 'Electricista en Sabadell 24 Horas | Urgencias e Instalaciones',
   description: 'Electricistas autorizados en Sabadell. Atención de urgencias 24h en menos de 60 min en Centre, Creu Alta, Concòrdia y Ca n’Oriac. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/electricista-sabadell/',
+    canonical: 'https://electricistasenbarcelona.com/electricista-sabadell',
   }
 };
 
@@ -20,7 +20,7 @@ export default function ElectricistaSabadellPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Servicios de Electricista y Urgencias 24 Horas en Sabadell',
     description: 'Electricistas autorizados en Sabadell para urgencias 24h, averías, boletines eléctricos (CIE), cambio de cuadros eléctricos y reformas.',
-    url: 'https://electricistasenbarcelona.com/electricista-sabadell/',
+    url: 'https://electricistasenbarcelona.com/electricista-sabadell',
     areaServed: ['Sabadell', 'Centre', 'Creu Alta', 'Concòrdia', 'Ca n\'Oriac', 'Gràcia', 'Can Rull']
   });
 
@@ -61,7 +61,7 @@ export default function ElectricistaSabadellPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-4">
           <Breadcrumbs
             currentPageTitle="Electricista en Sabadell"
-            currentPageUrl="https://electricistasenbarcelona.com/electricista-sabadell/"
+            currentPageUrl="https://electricistasenbarcelona.com/electricista-sabadell"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

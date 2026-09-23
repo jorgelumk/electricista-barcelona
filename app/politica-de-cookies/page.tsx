@@ -8,7 +8,7 @@ export const metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/politica-de-cookies/',
+    canonical: 'https://electricistasenbarcelona.com/politica-de-cookies',
   }
 };
 
@@ -17,7 +17,7 @@ export default function PoliticaCookiesPage() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8 text-slate-800 leading-relaxed text-sm">
       <Breadcrumbs
         currentPageTitle="Política de Cookies"
-        currentPageUrl="https://electricistasenbarcelona.com/politica-de-cookies/"
+        currentPageUrl="https://electricistasenbarcelona.com/politica-de-cookies"
       />
 
       <div className="border-b border-slate-200 pb-4">

@@ -12,7 +12,7 @@ export const metadata = {
   title: 'Electricista en Sant Cugat 24 Horas | Urgencias e Instalaciones',
   description: 'Electricistas autorizados en Sant Cugat del Vallès. Urgencias 24h en menos de 60 min en Centre, Valldoreix, Mira-sol y Volpelleres. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/electricista-sant-cugat/',
+    canonical: 'https://electricistasenbarcelona.com/electricista-sant-cugat',
   }
 };
 
@@ -20,7 +20,7 @@ export default function ElectricistaSantCugatPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Servicios de Electricista y Urgencias 24 Horas en Sant Cugat del Vallès',
     description: 'Electricistas autorizados en Sant Cugat para urgencias 24h, averías, boletines eléctricos (CIE), cambio de cuadros eléctricos, domótica y reformas.',
-    url: 'https://electricistasenbarcelona.com/electricista-sant-cugat/',
+    url: 'https://electricistasenbarcelona.com/electricista-sant-cugat',
     areaServed: ['Sant Cugat del Vallès', 'Valldoreix', 'Mira-sol', 'La Floresta', 'Volpelleres', 'Coll Favà']
   });
 
@@ -61,7 +61,7 @@ export default function ElectricistaSantCugatPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-4">
           <Breadcrumbs
             currentPageTitle="Electricista en Sant Cugat del Vallès"
-            currentPageUrl="https://electricistasenbarcelona.com/electricista-sant-cugat/"
+            currentPageUrl="https://electricistasenbarcelona.com/electricista-sant-cugat"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

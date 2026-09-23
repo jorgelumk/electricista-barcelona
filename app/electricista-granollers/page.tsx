@@ -12,7 +12,7 @@ export const metadata = {
   title: 'Electricista en Granollers 24 Horas | Urgencias e Instalaciones',
   description: 'Electricistas autorizados en Granollers. Atención de urgencias 24h en menos de 60 min en Centre, Font Verda, Lledoner, Congost y Palou. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/electricista-granollers/',
+    canonical: 'https://electricistasenbarcelona.com/electricista-granollers',
   }
 };
 
@@ -20,7 +20,7 @@ export default function ElectricistaGranollersPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Servicios de Electricista y Urgencias 24 Horas en Granollers',
     description: 'Electricistas autorizados en Granollers para urgencias 24h, averías, boletines eléctricos (CIE), cambio de cuadros eléctricos y reformas.',
-    url: 'https://electricistasenbarcelona.com/electricista-granollers/',
+    url: 'https://electricistasenbarcelona.com/electricista-granollers',
     areaServed: ['Granollers', 'Centre', 'Font Verda', 'Lledoner', 'Congost', 'Palou', 'Can Gili']
   });
 
@@ -61,7 +61,7 @@ export default function ElectricistaGranollersPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-4">
           <Breadcrumbs
             currentPageTitle="Electricista en Granollers"
-            currentPageUrl="https://electricistasenbarcelona.com/electricista-granollers/"
+            currentPageUrl="https://electricistasenbarcelona.com/electricista-granollers"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

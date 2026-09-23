@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Electricista para Locales Comerciales y Oficinas en Barcelona',
   description: 'Instalaciones y reformas eléctricas para locales comerciales, oficinas y restaurantes en Barcelona. Proyectos homologados REBT y boletines. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/electricista-locales-y-oficinas/',
+    canonical: 'https://electricistasenbarcelona.com/electricista-locales-y-oficinas',
   }
 };
 
@@ -21,7 +21,7 @@ export default function LocalesOficinasPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Electricista para Locales y Oficinas en Barcelona',
     description: 'Electrificación comercial, proyectos de baja tensión, iluminación de escaparates y mantenimiento para locales y oficinas en Barcelona.',
-    url: 'https://electricistasenbarcelona.com/electricista-locales-y-oficinas/'
+    url: 'https://electricistasenbarcelona.com/electricista-locales-y-oficinas'
   });
 
   const faqs = [
@@ -106,7 +106,7 @@ export default function LocalesOficinasPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Electricista para Locales y Oficinas"
-            currentPageUrl="https://electricistasenbarcelona.com/electricista-locales-y-oficinas/"
+            currentPageUrl="https://electricistasenbarcelona.com/electricista-locales-y-oficinas"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

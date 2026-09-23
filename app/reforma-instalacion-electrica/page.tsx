@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Reforma de Instalación Eléctrica en Barcelona | Cableado e Iluminación',
   description: 'Renovación y reforma completa o parcial de la instalación eléctrica en Barcelona. Rozas, cableado libre de halógenos y cuadros. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/reforma-instalacion-electrica/',
+    canonical: 'https://electricistasenbarcelona.com/reforma-instalacion-electrica',
   }
 };
 
@@ -21,7 +21,7 @@ export default function ReformaInstalacionElectricaPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Reforma de Instalación Eléctrica en Barcelona',
     description: 'Reforma integral y parcial del cableado y mecanismos eléctricos en pisos antiguos, comunidades y locales en Barcelona.',
-    url: 'https://electricistasenbarcelona.com/reforma-instalacion-electrica/'
+    url: 'https://electricistasenbarcelona.com/reforma-instalacion-electrica'
   });
 
   const faqs = [
@@ -110,7 +110,7 @@ export default function ReformaInstalacionElectricaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Reforma de Instalación Eléctrica"
-            currentPageUrl="https://electricistasenbarcelona.com/reforma-instalacion-electrica/"
+            currentPageUrl="https://electricistasenbarcelona.com/reforma-instalacion-electrica"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

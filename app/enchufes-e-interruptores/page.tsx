@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Cambiar Enchufes e Interruptores en Barcelona | Iluminación LED',
   description: 'Instalación y sustitución de enchufes, conmutadores, mecanismos USB y puntos de luz en Barcelona. Mecanismos homologados. Presupuesto sin compromiso. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/enchufes-e-interruptores/',
+    canonical: 'https://electricistasenbarcelona.com/enchufes-e-interruptores',
   }
 };
 
@@ -21,7 +21,7 @@ export default function EnchufesInterruptoresPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Cambio de Enchufes e Interruptores en Barcelona',
     description: 'Instalación y sustitución de mecanismos eléctricos, enchufes con toma de tierra, conmutadores y puntos de iluminación LED en Barcelona.',
-    url: 'https://electricistasenbarcelona.com/enchufes-e-interruptores/'
+    url: 'https://electricistasenbarcelona.com/enchufes-e-interruptores'
   });
 
   const faqs = [
@@ -110,7 +110,7 @@ export default function EnchufesInterruptoresPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Enchufes e Interruptores"
-            currentPageUrl="https://electricistasenbarcelona.com/enchufes-e-interruptores/"
+            currentPageUrl="https://electricistasenbarcelona.com/enchufes-e-interruptores"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Electricista para Comunidades de Vecinos en Barcelona | Mantenimiento y Averías',
   description: 'Servicios de electricidad para comunidades de propietarios y administradores de fincas en Barcelona. Iluminación LED, cuadros de zona común, videoporteros y cargadores. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/electricista-comunidades-de-vecinos/',
+    canonical: 'https://electricistasenbarcelona.com/electricista-comunidades-de-vecinos',
   }
 };
 
@@ -21,7 +21,7 @@ export default function ComunidadesVecinosPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Electricista para Comunidades de Vecinos en Barcelona',
     description: 'Servicio técnico especializado para comunidades de propietarios, portales, garajes y administradores de fincas en Barcelona.',
-    url: 'https://electricistasenbarcelona.com/electricista-comunidades-de-vecinos/'
+    url: 'https://electricistasenbarcelona.com/electricista-comunidades-de-vecinos'
   });
 
   const faqs = [
@@ -110,7 +110,7 @@ export default function ComunidadesVecinosPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Electricista para Comunidades"
-            currentPageUrl="https://electricistasenbarcelona.com/electricista-comunidades-de-vecinos/"
+            currentPageUrl="https://electricistasenbarcelona.com/electricista-comunidades-de-vecinos"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

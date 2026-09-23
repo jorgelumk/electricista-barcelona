@@ -12,7 +12,7 @@ export const metadata = {
   title: 'Electricista en Cornellà 24 Horas | Urgencias e Instalaciones',
   description: 'Electricistas autorizados en Cornellà de Llobregat. Urgencias 24h en menos de 60 min en Centre, Almeda, Riera, Sant Ildefons y La Gavarra. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/electricista-cornella/',
+    canonical: 'https://electricistasenbarcelona.com/electricista-cornella',
   }
 };
 
@@ -20,7 +20,7 @@ export default function ElectricistaCornellaPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Servicios de Electricista y Urgencias 24 Horas en Cornellà de Llobregat',
     description: 'Electricistas autorizados en Cornellà para urgencias 24h, averías, boletines eléctricos (CIE), cambio de cuadros eléctricos y reformas.',
-    url: 'https://electricistasenbarcelona.com/electricista-cornella/',
+    url: 'https://electricistasenbarcelona.com/electricista-cornella',
     areaServed: ['Cornellà de Llobregat', 'Centre', 'Almeda', 'Riera', 'Sant Ildefons', 'La Gavarra', 'El Pedró']
   });
 
@@ -61,7 +61,7 @@ export default function ElectricistaCornellaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-4">
           <Breadcrumbs
             currentPageTitle="Electricista en Cornellà de Llobregat"
-            currentPageUrl="https://electricistasenbarcelona.com/electricista-cornella/"
+            currentPageUrl="https://electricistasenbarcelona.com/electricista-cornella"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">

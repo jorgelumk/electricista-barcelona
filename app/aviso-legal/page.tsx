@@ -8,7 +8,7 @@ export const metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/aviso-legal/',
+    canonical: 'https://electricistasenbarcelona.com/aviso-legal',
   }
 };
 
@@ -17,7 +17,7 @@ export default function AvisoLegalPage() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8 text-slate-800 leading-relaxed text-sm">
       <Breadcrumbs
         currentPageTitle="Aviso Legal"
-        currentPageUrl="https://electricistasenbarcelona.com/aviso-legal/"
+        currentPageUrl="https://electricistasenbarcelona.com/aviso-legal"
       />
 
       <div className="border-b border-slate-200 pb-4">

@@ -29,12 +29,12 @@ export function generateMetadata({ params }: PageProps) {
     description: post.description,
     keywords: [post.keyword, 'electricista barcelona', 'instalaciones electricas barcelona'],
     alternates: {
-      canonical: `https://electricistasenbarcelona.com/blog/${post.slug}/`,
+      canonical: `https://electricistasenbarcelona.com/blog/${post.slug}`,
     },
     openGraph: {
       title: post.metaTitle,
       description: post.description,
-      url: `https://electricistasenbarcelona.com/blog/${post.slug}/`,
+      url: `https://electricistasenbarcelona.com/blog/${post.slug}`,
       siteName: 'Electricistas Barcelona',
       images: [
         {
@@ -84,7 +84,7 @@ export default function BlogPostPage({ params }: PageProps) {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10 text-slate-800 leading-relaxed">
         <Breadcrumbs
           currentPageTitle={post.title}
-          currentPageUrl={`https://electricistasenbarcelona.com/blog/${post.slug}/`}
+          currentPageUrl={`https://electricistasenbarcelona.com/blog/${post.slug}`}
         />
 
         {/* ARTICLE HEADER */}
@@ -251,7 +251,7 @@ export default function BlogPostPage({ params }: PageProps) {
         {/* SHARE BUTTONS */}
         <ShareButtons
           title={post.title}
-          url={`https://electricistasenbarcelona.com/blog/${post.slug}/`}
+          url={`https://electricistasenbarcelona.com/blog/${post.slug}`}
         />
 
         {/* RELATED POSTS SECTION */}

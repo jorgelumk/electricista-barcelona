@@ -11,30 +11,30 @@ export default function Header() {
   const [zonasDropdown, setZonasDropdown] = useState(false);
 
   const servicios = [
-    { href: '/instalaciones-electricas-barcelona/', label: 'Instalaciones Eléctricas', icon: Zap },
-    { href: '/cambio-de-cuadro-electrico/', label: 'Cambio de Cuadro Eléctrico', icon: ShieldCheck },
-    { href: '/boletin-electrico-barcelona/', label: 'Boletín Eléctrico (CIE)', icon: FileText },
-    { href: '/reforma-instalacion-electrica/', label: 'Reforma de Instalación', icon: Wrench },
-    { href: '/electricista-comunidades-de-vecinos/', label: 'Comunidades de Vecinos', icon: Building2 },
-    { href: '/electricista-locales-y-oficinas/', label: 'Locales y Oficinas', icon: Store },
-    { href: '/electricista-industrial-barcelona/', label: 'Electricistas Industriales', icon: Factory },
-    { href: '/punto-de-recarga-coche-electrico/', label: 'Cargadores Coche Eléctrico', icon: Car },
-    { href: '/videoporteros-barcelona/', label: 'Videoporteros e Interfonía', icon: Video },
-    { href: '/enchufes-e-interruptores/', label: 'Enchufes e Iluminación', icon: Zap },
-    { href: '/mantenimiento-electrico/', label: 'Mantenimiento Eléctrico', icon: Clock },
-    { href: '/domotica-barcelona/', label: 'Domótica del Hogar', icon: Zap },
+    { href: '/instalaciones-electricas-barcelona', label: 'Instalaciones Eléctricas', icon: Zap },
+    { href: '/cambio-de-cuadro-electrico', label: 'Cambio de Cuadro Eléctrico', icon: ShieldCheck },
+    { href: '/boletin-electrico-barcelona', label: 'Boletín Eléctrico (CIE)', icon: FileText },
+    { href: '/reforma-instalacion-electrica', label: 'Reforma de Instalación', icon: Wrench },
+    { href: '/electricista-comunidades-de-vecinos', label: 'Comunidades de Vecinos', icon: Building2 },
+    { href: '/electricista-locales-y-oficinas', label: 'Locales y Oficinas', icon: Store },
+    { href: '/electricista-industrial-barcelona', label: 'Electricistas Industriales', icon: Factory },
+    { href: '/punto-de-recarga-coche-electrico', label: 'Cargadores Coche Eléctrico', icon: Car },
+    { href: '/videoporteros-barcelona', label: 'Videoporteros e Interfonía', icon: Video },
+    { href: '/enchufes-e-interruptores', label: 'Enchufes e Iluminación', icon: Zap },
+    { href: '/mantenimiento-electrico', label: 'Mantenimiento Eléctrico', icon: Clock },
+    { href: '/domotica-barcelona', label: 'Domótica del Hogar', icon: Zap },
   ];
 
   const zonas = [
-    { href: '/electricista-badalona/', label: 'Electricista en Badalona' },
-    { href: '/electricista-hospitalet/', label: 'Electricista en L’Hospitalet' },
-    { href: '/electricista-terrassa/', label: 'Electricista en Terrassa' },
-    { href: '/electricista-sabadell/', label: 'Electricista en Sabadell' },
-    { href: '/electricista-sant-cugat/', label: 'Electricista en Sant Cugat' },
-    { href: '/electricista-castelldefels/', label: 'Electricista en Castelldefels' },
-    { href: '/electricista-cornella/', label: 'Electricista en Cornellà' },
-    { href: '/electricista-mataro/', label: 'Electricista en Mataró' },
-    { href: '/electricista-granollers/', label: 'Electricista en Granollers' },
+    { href: '/electricista-badalona', label: 'Electricista en Badalona' },
+    { href: '/electricista-hospitalet', label: 'Electricista en L’Hospitalet' },
+    { href: '/electricista-terrassa', label: 'Electricista en Terrassa' },
+    { href: '/electricista-sabadell', label: 'Electricista en Sabadell' },
+    { href: '/electricista-sant-cugat', label: 'Electricista en Sant Cugat' },
+    { href: '/electricista-castelldefels', label: 'Electricista en Castelldefels' },
+    { href: '/electricista-cornella', label: 'Electricista en Cornellà' },
+    { href: '/electricista-mataro', label: 'Electricista en Mataró' },
+    { href: '/electricista-granollers', label: 'Electricista en Granollers' },
   ];
 
   return (
@@ -166,19 +166,19 @@ export default function Header() {
             )}
           </div>
 
-          <Link href="/boletin-electrico-barcelona/" className="px-3 py-2.5 hover:text-amber-400 transition-colors">
+          <Link href="/boletin-electrico-barcelona" className="px-3 py-2.5 hover:text-amber-400 transition-colors">
             Boletín Eléctrico
           </Link>
-          <Link href="/cambio-de-cuadro-electrico/" className="px-3 py-2.5 hover:text-amber-400 transition-colors">
+          <Link href="/cambio-de-cuadro-electrico" className="px-3 py-2.5 hover:text-amber-400 transition-colors">
             Cuadros Eléctricos
           </Link>
-          <Link href="/electricista-comunidades-de-vecinos/" className="px-3 py-2.5 hover:text-amber-400 transition-colors">
+          <Link href="/electricista-comunidades-de-vecinos" className="px-3 py-2.5 hover:text-amber-400 transition-colors">
             Comunidades
           </Link>
-          <Link href="/blog/" className="px-3 py-2.5 hover:text-amber-400 transition-colors">
+          <Link href="/blog" className="px-3 py-2.5 hover:text-amber-400 transition-colors">
             Blog
           </Link>
-          <Link href="/contacto/" className="px-3 py-2.5 hover:text-amber-400 transition-colors ml-auto text-amber-400 font-bold">
+          <Link href="/contacto" className="px-3 py-2.5 hover:text-amber-400 transition-colors ml-auto text-amber-400 font-bold">
             Contacto
           </Link>
         </div>
@@ -260,14 +260,14 @@ export default function Header() {
 
             <div className="border-t border-slate-800 pt-2 space-y-1">
               <Link
-                href="/blog/"
+                href="/blog"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded-lg hover:bg-slate-800 hover:text-amber-400 text-amber-400"
               >
                 Blog y Guías
               </Link>
               <Link
-                href="/contacto/"
+                href="/contacto"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded-lg bg-amber-500/10 text-amber-400 border border-amber-500/30 font-bold text-center"
               >

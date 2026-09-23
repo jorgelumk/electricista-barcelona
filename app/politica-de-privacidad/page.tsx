@@ -8,7 +8,7 @@ export const metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://electricistasbarcelona.com/politica-de-privacidad/',
+    canonical: 'https://electricistasenbarcelona.com/politica-de-privacidad',
   }
 };
 
@@ -17,7 +17,7 @@ export default function PoliticaPrivacidadPage() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8 text-slate-800 leading-relaxed text-sm">
       <Breadcrumbs
         currentPageTitle="Política de Privacidad"
-        currentPageUrl="https://electricistasenbarcelona.com/politica-de-privacidad/"
+        currentPageUrl="https://electricistasenbarcelona.com/politica-de-privacidad"
       />
 
       <div className="border-b border-slate-200 pb-4">

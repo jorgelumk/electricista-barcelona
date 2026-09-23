@@ -13,7 +13,7 @@ export const metadata = {
   title: 'Boletín Eléctrico en Barcelona (CIE) | Tramitación Oficial 24-48h',
   description: 'Expedición y registro del Certificado de Instalación Eléctrica (Boletín CIE) en Barcelona para altas de luz, aumentos de potencia y cambios de titular. 📱 657 144 186.',
   alternates: {
-    canonical: 'https://electricistasenbarcelona.com/boletin-electrico-barcelona/',
+    canonical: 'https://electricistasenbarcelona.com/boletin-electrico-barcelona',
   }
 };
 
@@ -21,7 +21,7 @@ export default function BoletinElectricoPage() {
   const serviceSchema = generateServiceSchema({
     name: 'Boletín Eléctrico (CIE) en Barcelona',
     description: 'Tramitación y expedición oficial del Certificado de Instalación Eléctrica de Baja Tensión (CIE) en Barcelona por instalador autorizado registrado en el REIC.',
-    url: 'https://electricistasenbarcelona.com/boletin-electrico-barcelona/'
+    url: 'https://electricistasenbarcelona.com/boletin-electrico-barcelona'
   });
 
   const faqs = [
@@ -110,7 +110,7 @@ export default function BoletinElectricoPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
           <Breadcrumbs
             currentPageTitle="Boletín Eléctrico (CIE)"
-            currentPageUrl="https://electricistasenbarcelona.com/boletin-electrico-barcelona/"
+            currentPageUrl="https://electricistasenbarcelona.com/boletin-electrico-barcelona"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-2">
