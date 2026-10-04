@@ -13,7 +13,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const receiverEmail = process.env.LEAD_RECEIVER_EMAIL || 'jorge@agenciaiasolutions.com';
+    const receiverEmail = process.env.LEAD_RECEIVER_EMAIL || 'jorgelujanmk@gmail.com';
     const fromEmail = process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev';
 
     const emailContent = `
@@ -38,6 +38,10 @@ export async function POST(request: Request) {
 
       if (response.error) {
         console.error('Error enviando email con Resend:', response.error);
+        return NextResponse.json(
+          { error: response.error.message || 'Error al enviar el correo electrónico.' },
+          { status: 500 }
+        );
       } else {
         console.log('Lead enviado con éxito a Resend:', response.data);
       }
