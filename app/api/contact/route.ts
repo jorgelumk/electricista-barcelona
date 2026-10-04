@@ -13,8 +13,9 @@ export async function POST(request: Request) {
       );
     }
 
-    const receiverEmail = process.env.LEAD_RECEIVER_EMAIL || 'jorgelujanmk@gmail.com';
-    const fromEmail = process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev';
+    const rawReceiver = process.env.LEAD_RECEIVER_EMAIL || 'jorgelujanmk@gmail.com';
+    const recipients = rawReceiver.split(',').map((e) => e.trim()).filter(Boolean);
+    const fromEmail = process.env.RESEND_FROM_EMAIL || 'jorge@agenciaiasolutions.com';
 
     const emailContent = `
 🚨 NUEVO LEAD DE ELECTRICISTA BARCELONA 🚨
@@ -31,7 +32,7 @@ export async function POST(request: Request) {
     if (resend) {
       const response = await resend.emails.send({
         from: `Electricistas Barcelona <${fromEmail}>`,
-        to: [receiverEmail],
+        to: recipients,
         subject: `⚡ Lead [${servicio || 'Urgencia'}] - ${nombre} (${poblacion || 'Barcelona'})`,
         text: emailContent,
       });
