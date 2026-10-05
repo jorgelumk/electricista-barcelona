@@ -15,7 +15,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const rawReceiver = process.env.LEAD_RECEIVER_EMAIL || 'jorgelujanmk@gmail.com';
+    const rawReceiver = process.env.LEAD_RECEIVER_EMAIL || 'Info@gruposerviac.com, jorgelujanmk@gmail.com';
     const recipients = rawReceiver.split(',').map((e) => e.trim()).filter(Boolean);
     const fromEmail = process.env.RESEND_FROM_EMAIL || 'jorge@agenciaiasolutions.com';
 
@@ -51,9 +51,9 @@ export async function POST(request: Request) {
         console.log('Lead enviado con éxito a Resend:', response.data);
       }
     } else {
-      console.error('RESEND_API_KEY no encontrada en las variables de entorno.');
+      console.error('RESEND_API_KEY no encontrada en las variables de entorno de Vercel.');
       return NextResponse.json(
-        { error: 'RESEND_API_KEY no está configurada en las variables de entorno de Vercel.' },
+        { error: 'RESEND_API_KEY no encontrada en las variables de entorno. Por favor, realiza un Redeploy en Vercel para aplicar las variables.' },
         { status: 500 }
       );
     }

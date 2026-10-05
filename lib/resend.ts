@@ -2,8 +2,8 @@ import { Resend } from 'resend';
 
 export function getResend() {
   const apiKey = process.env.RESEND_API_KEY;
-  return apiKey ? new Resend(apiKey) : null;
+  if (!apiKey) return null;
+  return new Resend(apiKey.trim());
 }
 
-// Retrocompatibilidad
-export const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
+export const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY.trim()) : null;
