@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
-import { resend } from '@/lib/resend';
+import { getResend } from '@/lib/resend';
+
+export const dynamic = 'force-dynamic';
 
 export async function POST(request: Request) {
   try {
@@ -29,6 +31,8 @@ export async function POST(request: Request) {
 • Fecha y Hora: ${new Date().toLocaleString('es-ES', { timeZone: 'Europe/Madrid' })}
     `.trim();
 
+    const resend = getResend();
+
     if (resend) {
       const response = await resend.emails.send({
         from: `Electricistas Barcelona <${fromEmail}>`,
@@ -47,15 +51,18 @@ export async function POST(request: Request) {
         console.log('Lead enviado con éxito a Resend:', response.data);
       }
     } else {
-      console.log('--- MOCK EMAIL RESEND (API Key no configurada) ---');
-      console.log(emailContent);
+      console.error('RESEND_API_KEY no encontrada en las variables de entorno.');
+      return NextResponse.json(
+        { error: 'RESEND_API_KEY no está configurada en las variables de entorno de Vercel.' },
+        { status: 500 }
+      );
     }
 
     return NextResponse.json({ success: true, message: 'Solicitud enviada correctamente' });
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error al procesar el lead:', error);
     return NextResponse.json(
-      { error: 'Error interno del servidor al procesar la solicitud' },
+      { error: error?.message || 'Error interno del servidor al procesar la solicitud' },
       { status: 500 }
     );
   }
